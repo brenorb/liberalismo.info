@@ -7,3 +7,6 @@ _site
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+# specific
+img/1024px-Gadsden_flag.svg.png
