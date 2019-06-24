@@ -98,10 +98,10 @@ url-pretty: "Liberalismo.info"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-142619998-1"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-142619998-1');</script>"
+#gtag: "<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-142619998-1"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-142619998-1');</script>"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-142619998-1"
+#google_analytics: "UA-142619998-1"
 
 # Google Tag Manager ID
 #gtm: ""
