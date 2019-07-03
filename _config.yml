@@ -23,7 +23,26 @@ description: Quickly build a beautiful Jekyll website
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+
+avatar: "/img/avatar-gadsen.png"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#F5DD00" #"#F2CB05" #amarelo #"#F5F5F5" gelo
+navbar-text-col: "#262001" #marrom #"#404040" cinza escuro
+navbar-children-col: "#F5DD00" #"#F2CB05" #amarelo #"#F5F5F5" gelo
+page-col: "#FFFFFF" #branco
+link-col: "#736002" #marrom amarelado #"#008AFF" azul claro
+hover-col: "#134011" # verde #"#0085A1" azul escuro
+footer-col: "#F5DD00" #"#F2CB05" #amarelo #"#F5F5F5" gelo
+footer-text-col: "#262001" #marrom #"#777777" cinza claro
+footer-link-col: "#262001" #marrom #"#404040" cinza escuro
 
 # List of links in the navigation bar
 navbar-links:
