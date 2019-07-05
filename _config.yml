@@ -20,13 +20,13 @@ description: "A fonte de informações colaborativa sobre Liberalismo"
 
 # List of links in the navigation bar
 navbar-links:
-  Como Colaborar: "aboutme"
+  Como Colaborar: "colabore"
   Recursos:
     - Agenda: "calendar"
     - Posts: "posts"
     #- Beautiful Jekyll: "https://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  FAQ: "faq"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
