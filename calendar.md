@@ -3,18 +3,11 @@ layout: calendar
 title: Calendário | Liberalismo.info
 subtitle: Calendário de eventos liberais em Brasilia
 ---
-# Calendário de eventos liberais em Brasília
+# Adicione eventos liberais de Brasília
 
 Aqui você pode ver os eventos que acontecem em Brasília.
-Caso queira adicionar um evento, faça isso:
+Caso queira adicionar um evento, [entre em contato conosco](mailto:contato@liberalismo.info) ou adicione você mesmo no [calendário compartilhado](https://bit.ly/EventosParceiros).
 
-My name is Inigo Montoya. I have the following qualities:
+Algumas instituições parceiras:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
