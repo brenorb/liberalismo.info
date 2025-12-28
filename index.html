@@ -1,72 +1,90 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Liberalismo.info
+subtitle: Uma nova versão do portal colaborativo sobre Liberalismo
 use-site-title: true
 ---
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
+<section class="homepage-hero">
+  <div class="hero-content">
+    <p class="hero-kicker">Nova versão do portal</p>
+    <h2>{{ site.title }}</h2>
+    <p class="hero-lead">{{ site.description }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/aboutme">Conheça o projeto</a>
+      <a class="btn btn-default" href="/tags">Explore os temas</a>
     </div>
+  </div>
+  <div class="hero-highlight">
+    <h3>O que você encontra aqui</h3>
+    <ul>
+      <li>Guias objetivos sobre conceitos e escolas do liberalismo.</li>
+      <li>Mapas de leitura com autores clássicos e contemporâneos.</li>
+      <li>Debates atuais sobre políticas públicas e liberdade.</li>
+    </ul>
+  </div>
+</section>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
+<section class="homepage-section">
+  <h3>Três pilares editoriais</h3>
+  <div class="feature-grid">
+    <article class="feature-card">
+      <h4>Liberdades Individuais</h4>
+      <p>Defesa das escolhas pessoais, do pluralismo e do respeito à autonomia.</p>
+    </article>
+    <article class="feature-card">
+      <h4>Mercados e Cooperação</h4>
+      <p>Como inovação, empreendedorismo e trocas voluntárias ampliam oportunidades.</p>
+    </article>
+    <article class="feature-card">
+      <h4>Instituições e Estado de Direito</h4>
+      <p>Regras claras, limites ao poder e uma base sólida para prosperidade.</p>
+    </article>
+  </div>
+</section>
+
+<section class="homepage-section">
+  <div class="content-grid">
+    <div>
+      <h3>Como contribuir</h3>
+      <ol class="step-list">
+        <li>Envie sugestões de temas ou fontes confiáveis.</li>
+        <li>Participe das discussões e ajude a revisar conteúdos.</li>
+        <li>Compartilhe o acervo e amplie a rede colaborativa.</li>
+      </ol>
     </div>
-    {% endif %}
+    <div class="status-card">
+      <h3>Versão 2.0</h3>
+      <p>Uma navegação mais clara e conteúdos organizados por trilhas.</p>
+      <ul class="status-list">
+        <li>Arquitetura simplificada</li>
+        <li>Curadoria por nível de leitura</li>
+        <li>Atualizações mensais</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-   </article>
-  {% endfor %}
-</div>
+<section class="homepage-section">
+  <h3>Leituras em destaque</h3>
+  <div class="feature-grid">
+    <article class="feature-card">
+      <h4>Fundamentos</h4>
+      <p>Textos introdutórios para quem está começando a explorar o tema.</p>
+    </article>
+    <article class="feature-card">
+      <h4>Debates atuais</h4>
+      <p>Análises sobre liberdade econômica, responsabilidade fiscal e inovação.</p>
+    </article>
+    <article class="feature-card">
+      <h4>Projetos locais</h4>
+      <p>Iniciativas brasileiras que aproximam liberalismo e impacto social.</p>
+    </article>
+  </div>
+</section>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+<section class="homepage-section cta-section">
+  <h3>Quer apoiar o Liberalismo.info?</h3>
+  <p>Ajude a manter a curadoria ativa compartilhando conteúdos e feedbacks.</p>
+  <a class="btn btn-primary" href="mailto:contato@liberalismo.info">Fale com a equipe</a>
+</section>
