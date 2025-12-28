@@ -44,3 +44,6 @@ Esta lista é um ponto de partida para expansão e não pretende ser exaustiva.
 - **O Caminho da Servidão** — Alerta contra o planejamento central e seus riscos à liberdade.
 - **A Constituição da Liberdade** — Explora ordem espontânea, Estado de Direito e limites ao poder governamental.
 
+## Joaquim Nabuco
+- **O Abolicionismo** — Defesa da abolição da escravidão e crítica às estruturas sociais e políticas que a sustentavam, articulando a liberdade individual como princípio civilizatório.
+- **Minha Formação** — Memórias intelectuais e políticas que iluminam o liberalismo brasileiro do século XIX e sua relação com a modernização institucional.
