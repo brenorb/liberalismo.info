@@ -8,7 +8,7 @@ if [[ -f "$ROOT_DIR/aboutme.md" ]]; then
   exit 1
 fi
 
-if find "$ROOT_DIR/_posts" -maxdepth 1 -type f | grep -q .; then
+if [[ -d "$ROOT_DIR/_posts" ]] && find "$ROOT_DIR/_posts" -maxdepth 1 -type f | grep -q .; then
   echo "Template/sample posts still present in _posts/"
   exit 1
 fi
