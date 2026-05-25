@@ -23,6 +23,7 @@ def main() -> None:
 @click.option("--original-language", required=True, help="Language code, e.g., en, fr, pt.")
 @click.option("--source-url", default="", help="Primary source URL for front matter.")
 @click.option("--tags", required=True, help="Comma-separated tags.")
+@click.option("--edition-language", default="", help="Language code for the hosted edition, e.g., en.")
 @click.option(
     "--editorial-note",
     default="This page reproduces historical text for educational use.",
@@ -46,6 +47,7 @@ def ingest(
     original_language: str,
     source_url: str,
     tags: str,
+    edition_language: str,
     editorial_note: str,
     source_credit: str,
     repo_root: Path,
@@ -68,6 +70,7 @@ def ingest(
             author=author,
             year_first_published=year_first_published,
             original_language=original_language,
+            edition_language=edition_language.strip() or original_language,
             source_url=source_reference,
             tags=[value.strip() for value in tags.split(",") if value.strip()],
             source_format=local_source.suffix.lower().lstrip("."),
@@ -132,6 +135,104 @@ Indice de autores catalogados no site.
 """
 
 
+REFERENCE_PAGE_TEMPLATE = """---
+layout: page
+title: {title}
+subtitle: {author}
+permalink: /library/{slug}/
+author: {author}
+original_language: {original_language}
+edition_language: {edition_language}
+year_first_published: {year_first_published}
+source_url: {source_url}
+tags: {tags}
+source_format: catalog
+---
+
+## About the work
+- Year: {year_first_published}
+- Author: {author}
+- Edition language: {edition_language}
+- Source format: catalog
+- Editorial status: bibliographic catalog entry
+
+## Editorial note
+This page records the work as part of the public catalog. Full text is not reproduced on this page.
+
+## Source
+Primary catalog source: Project Gutenberg metadata snapshot. Reading source: {source_url}
+
+## Summary
+{excerpt}
+
+## Themes
+{themes}
+"""
+
+
+GUIDE_PAGE_TEMPLATE = """---
+layout: page
+title: {title}
+subtitle: {author}
+permalink: /library/{slug}/
+author: {author}
+original_language: {original_language}
+edition_language: {edition_language}
+year_first_published: {year_first_published}
+source_url: {source_url}
+tags: {tags}
+source_format: guide
+---
+
+## About the work
+- Year: {year_first_published}
+- Author: {author}
+- Edition language: {edition_language}
+- Source format: guide
+- Editorial status: summary page for a still-copyrighted work
+
+## Editorial note
+This page records the work as part of the public catalog. The full text is not reproduced because the modern edition remains under copyright.
+
+## Copyright status
+This work is treated here as a guide entry only. Readers should consult the publisher or authorized editions for the full text.
+
+## Source
+Primary reading source: {source_url}
+
+## Summary
+{excerpt}
+
+## Themes
+{themes}
+"""
+
+
+def _format_frontmatter_tags(tags: list[str]) -> str:
+    return "[" + ", ".join(tags) + "]"
+
+
+def _yaml_string(value: str) -> str:
+    return json.dumps(value, ensure_ascii=False)
+
+
+def build_reference_markdown(work: dict[str, object]) -> str:
+    themes = "\n".join(f"- {tag}" for tag in work["tags"])
+    template = GUIDE_PAGE_TEMPLATE if work["mode"] == "guide" else REFERENCE_PAGE_TEMPLATE
+    return template.format(
+        title=_yaml_string(str(work["title"])),
+        author=_yaml_string(str(work["author"])),
+        slug=work["slug"],
+        original_language=work["original_language"],
+        edition_language=work["edition_language"],
+        year_first_published=work["year_first_published"],
+        source_url=_yaml_string(str(work["source_url"])),
+        tags=_format_frontmatter_tags([str(tag) for tag in work["tags"]]),
+        excerpt=work["excerpt"],
+        themes=themes,
+    )
+
+
 @main.command("sync-classical-catalog")
 @click.option("--repo-root", type=click.Path(path_type=Path), default=Path.cwd(), show_default=True)
 @click.option("--limit", type=int, default=None, help="Only ingest the first N full-text works.")
@@ -143,6 +244,13 @@ def sync_classical_catalog(repo_root: Path, limit: int | None) -> None:
     data_dir.mkdir(parents=True, exist_ok=True)
     library_dir = repo_root / "library"
     library_dir.mkdir(parents=True, exist_ok=True)
+
+    for path in authors_dir.glob("*.md"):
+        if path.name != "index.md":
+            path.unlink()
+    for path in library_dir.glob("*.md"):
+        if path.name != "index.md":
+            path.unlink()
 
     (data_dir / "catalog.json").write_text(
         json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
@@ -167,6 +275,7 @@ def sync_classical_catalog(repo_root: Path, limit: int | None) -> None:
                 author=str(work["author"]),
                 year_first_published=int(work["year_first_published"]),
                 original_language=str(work["original_language"]),
+                edition_language=str(work["edition_language"]),
                 source_url=str(work["source_url"]),
                 tags=[str(tag) for tag in work["tags"]],
                 source_format=local_source.suffix.lower().lstrip("."),
@@ -185,3 +294,10 @@ def sync_classical_catalog(repo_root: Path, limit: int | None) -> None:
             click.echo(f"Wrote {output}")
         finally:
             cleanup()
+
+    for work in catalog["works"]:
+        if work["mode"] == "fulltext":
+            continue
+        output = library_dir / f"{work['slug']}.md"
+        output.write_text(build_reference_markdown(work), encoding="utf-8")
+        click.echo(f"Wrote {output}")

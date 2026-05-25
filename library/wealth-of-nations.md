@@ -5,6 +5,7 @@ subtitle: "Adam Smith"
 permalink: /library/wealth-of-nations/
 author: Adam Smith
 original_language: en
+edition_language: en
 year_first_published: 1776
 source_url: "https://www.gutenberg.org/ebooks/3300"
 tags: [economics, liberalism, markets]

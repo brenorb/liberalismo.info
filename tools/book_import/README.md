@@ -24,6 +24,22 @@ uv run --project tools/book_import book-import ingest \
 
 This writes `/Users/breno/Documents/code/SITES/liberalismo.info/library/the-law.md`.
 
+## Sync the archive snapshot
+
+```bash
+uv run --project tools/book_import \
+  book-import sync-classical-catalog \
+  --repo-root /Users/breno/Documents/code/SITES/liberalismo.info
+```
+
+This command reads the checked-in snapshot at:
+- `tools/book_import/src/book_import/classical_catalog_data.json`
+
+And regenerates:
+- `_data/catalog.json`
+- `authors/*.md`
+- `library/*.md`
+
 ## Evaluate OCR with public-domain books
 
 ```bash

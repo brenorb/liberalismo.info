@@ -44,6 +44,7 @@ def test_build_work_markdown_matches_library_schema():
         "author:",
         "year_first_published:",
         "original_language:",
+        "edition_language:",
         "source_url:",
         "tags:",
     ):

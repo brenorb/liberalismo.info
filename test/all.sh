@@ -6,6 +6,7 @@ scripts=(
   test/design_system.sh
   test/archive_structure.sh
   test/catalog_scale.sh
+  test/catalog_language.sh
   test/language_standard.sh
   test/repo_hygiene.sh
   test/work_the_law.sh

@@ -5,6 +5,7 @@ subtitle: "John Locke"
 permalink: /library/two-treatises/
 author: John Locke
 original_language: en
+edition_language: en
 year_first_published: 1689
 source_url: "https://www.gutenberg.org/ebooks/7370"
 tags: [government, liberalism, natural-rights]

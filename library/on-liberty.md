@@ -5,6 +5,7 @@ subtitle: "John Stuart Mill"
 permalink: /library/on-liberty/
 author: John Stuart Mill
 original_language: en
+edition_language: en
 year_first_published: 1859
 source_url: "https://www.gutenberg.org/ebooks/34901"
 tags: [liberalism, freedom, individual-rights]

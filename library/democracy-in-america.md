@@ -5,6 +5,7 @@ subtitle: "Alexis de Tocqueville"
 permalink: /library/democracy-in-america/
 author: Alexis de Tocqueville
 original_language: fr
+edition_language: en
 year_first_published: 1835
 source_url: "https://www.gutenberg.org/ebooks/815"
 tags: [democracy, institutions, liberalism]

@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK_FILE="$ROOT_DIR/library/the-law.md"
 
-for field in '^title:' '^author:' '^year_first_published:' '^original_language:' '^source_url:' '^tags:'; do
+for field in '^title:' '^author:' '^year_first_published:' '^original_language:' '^edition_language:' '^source_url:' '^tags:'; do
   if ! grep -q "$field" "$WORK_FILE"; then
     echo "Missing required field in the-law.md: $field"
     exit 1

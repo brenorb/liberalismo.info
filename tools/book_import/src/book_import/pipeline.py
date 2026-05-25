@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import json
 import re
 from typing import Iterable
+import unicodedata
 
 
 @dataclass
@@ -20,6 +22,7 @@ class WorkMetadata:
     source_url: str
     tags: list[str]
     source_format: str
+    edition_language: str = "en"
     slug: str | None = None
 
 
@@ -32,8 +35,10 @@ class WorkInput:
 
 
 def make_slug(title: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return re.sub(r"-{2,}", "-", slug)
+    normalized = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-z0-9]+", "-", normalized.lower()).strip("-")
+    slug = re.sub(r"-{2,}", "-", slug)
+    return slug[:80].rstrip("-")
 
 
 def detect_chapters(text: str) -> list[Chapter]:
@@ -84,6 +89,10 @@ def _clean_text(text: str) -> str:
     return normalized.strip()
 
 
+def _quote_yaml_string(value: str) -> str:
+    return json.dumps(value, ensure_ascii=False)
+
+
 def _strip_project_gutenberg_boilerplate(text: str) -> str:
     start_pattern = re.compile(r"^\*\*\*\s*START OF (?:THE|THIS) PROJECT GUTENBERG EBOOK.*\*\*\*$", re.MULTILINE)
     end_pattern = re.compile(r"^\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK.*\*\*\*$", re.MULTILINE)
@@ -118,13 +127,14 @@ def build_work_markdown(work_input: WorkInput) -> str:
     lines = [
         "---",
         "layout: page",
-        f'title: "{meta.title}"',
-        f'subtitle: "{meta.author}"',
+        f"title: {_quote_yaml_string(meta.title)}",
+        f"subtitle: {_quote_yaml_string(meta.author)}",
         f"permalink: /library/{slug}/",
         f"author: {meta.author}",
         f"original_language: {meta.original_language}",
+        f"edition_language: {meta.edition_language}",
         f"year_first_published: {meta.year_first_published}",
-        f'source_url: "{meta.source_url}"',
+        f"source_url: {_quote_yaml_string(meta.source_url)}",
         f"tags: {_format_tags(meta.tags)}",
         f"source_format: {meta.source_format}",
         "---",

@@ -5,6 +5,7 @@ subtitle: "Frederic Bastiat"
 permalink: /library/the-law/
 author: Frederic Bastiat
 original_language: fr
+edition_language: en
 year_first_published: 1850
 source_url: "https://www.gutenberg.org/ebooks/44800"
 tags: [liberalism, economics, law, state]

@@ -3,8 +3,8 @@ set -euo pipefail
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/lib.sh"
 
 library_count=$(find "$ROOT_DIR/library" -maxdepth 1 -name '*.md' ! -name 'index.md' | wc -l | tr -d ' ')
-if [[ "$library_count" -lt 50 ]]; then
-  echo "Expected at least 50 library works, got $library_count"
+if [[ "$library_count" -lt 500 ]]; then
+  echo "Expected at least 500 library works, got $library_count"
   exit 1
 fi
 
