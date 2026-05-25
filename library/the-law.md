@@ -21,34 +21,9 @@ source_format: txt
 This page reproduces historical text for educational use.
 
 ## Primary source
-Primary source used for this page: Imported source edition [txt] (https://www.gutenberg.org/ebooks/44800).
+Primary source used for this page: Project Gutenberg edition [txt] (https://www.gutenberg.org/ebooks/44800).
 
 ## Text
-
-The Project Gutenberg eBook of The Law
-
-This ebook is for the use of anyone anywhere in the United States and
-most other parts of the world at no cost and with almost no restrictions
-whatsoever. You may copy it, give it away or re-use it under the terms
-of the Project Gutenberg License included with this ebook or online
-at www.gutenberg.org. If you are not located in the United States,
-you will have to check the laws of the country where you are located
-before using this eBook.
-
-Title: The Law
-
-Author: Frédéric Bastiat
-
-Release date: January 30, 2014 [eBook #44800]
-                Most recently updated: October 24, 2024
-
-Language: English
-
-Credits: Produced by David Widger from page scans generously provided
-        by the Google Books Project, with a Creative Commons license
-        granted by the Ludwig von Mises Institute, Auburn, Alabama
-
-*** START OF THE PROJECT GUTENBERG EBOOK THE LAW ***
 
 THE LAW
 
@@ -72,8 +47,6 @@ This book is licensed under a Creative Commons license.
 
 FOREWORD
 
-{v}
-
 Anyone building a personal library of liberty must include in it a copy
 of Frédéric Bastiat's classic essay, "The Law." First published in 1850
 by the great French economist and journalist, it is as clear a statement
@@ -91,8 +64,6 @@ plunder. Far from protecting individual rights, the law was increasingly
 used to deprive one group of citizens of those rights for the benefit
 of another group, and especially for the benefit of the state itself. He
 condemned the legal plunder of protectionist
-
-{vi}
 
 tariffs, government subsidies of all kinds, progressive taxation, public
 schools, government "jobs" programs, minimum wage laws, welfare, usury
@@ -127,8 +98,6 @@ example, the steel manufacturing industry lobbies for high tariffs on
 steel, whereas steel-using industries, like the automobile industry, can
 be expected to lobby against high tariffs on steel).
 
-{vii}
-
 The reason why modem economists are concerned about "rent seeking" is
 the opportunity cost involved: the more time, effort and money that
 is spent by businesses on conniving to manipulate politics--merely
@@ -158,8 +127,6 @@ dictatorship. As such, they were the mortal enemies of liberty.
 
 "Dictatorship" need not involve an actual dictator. All that was needed,
 said Bastiat, was "the laws," enacted
-
-{viii}
 
 by a Congress or a Parliament, that would achieve the same effect:
 forced conformity.
@@ -195,8 +162,6 @@ ideal.
 In the latter pages of "The Law" Bastiat offers the sage advice that
 what was really needed was "a science of
 
-{ix}
-
 economics" that would explain the harmony (or lack thereof) of a free
 society (as opposed to socialism). He made a major contribution to this
 end himself with the publication of his book, _Economic Harmonies_,
@@ -217,8 +182,6 @@ and a member of the senior faculty of the Mises Institute.
 
 THE LAW [1]
 
-{1}
-
 The law perverted! The law--and, in its wake, all the collective
 forces of the nation--the law, I say, not only diverted from its proper
 direction, but made to pursue one entirely contrary! The law become
@@ -235,8 +198,6 @@ with the care of supporting it, of developing it, and of perfecting
 it. To that end, He has provided us with a collection of wonderful
 faculties; He has plunged us into the midst of a variety of elements. It
 is by
-
-{2}
 
 the application of our faculties to these elements that the phenomena of
 assimilation and of appropriation, by which life pursues the circle that
@@ -273,8 +234,6 @@ have any other end, or any other mission, than that of the isolated
 forces for which it is substituted. Thus, as the force of an individual
 cannot lawfully touch the person, the liberty, or the property of
 
-{3}
-
 another individual--for the same reason, the common force cannot
 lawfully be used to destroy the person, the liberty, or the property of
 individuals or of classes.
@@ -307,8 +266,6 @@ long as personal safety was ensured, so long as labor was free, and the
 fruits of labor secured against all unjust attacks, no one would have
 any difficulties to contend with in the State. When
 
-{4}
-
 prosperous, we should not, it is true, have to thank the State for our
 success; but when unfortunate, we should no more think of taxing it with
 our disasters than our peasants think of attributing to it the arrival
@@ -340,8 +297,6 @@ may punish it.
 
 How has this perversion of law been accomplished? And what has resulted
 from it?
-
-{5}
 
 The law has been perverted through the influence of two very different
 causes--naked greed and misconceived philanthropy.
@@ -377,8 +332,6 @@ morality can, in this case, prevent it from prevailing.
 When does plunder cease, then? When it becomes more burdensome and more
 dangerous than labor. It is
 
-{6}
-
 very evident that the proper aim of law is to oppose the fatal tendency
 to plunder with the powerful obstacle of collective force; that all its
 measures should be in favor of property, and against plunder.
@@ -411,8 +364,6 @@ or they may desire to take part in it.
 Woe to the nation where this latter thought prevails amongst the masses,
 at the moment when they, in their turn, seize upon the legislative
 power!
-
-{7}
 
 Up to that time, lawful plunder has been exercised by the few upon the
 many, as is the case in countries where the right of legislating is
@@ -449,8 +400,6 @@ of the masses they are one and the same. There is in all of us a strong
 disposition to regard what is lawful as legitimate, so much so that many
 falsely derive
 
-{8}
-
 all justice from law. It is sufficient, then, for the law to order
 and sanction plunder, that it may appear to many consciences just and
 sacred. Slavery, protection, and monopoly find defenders, not only
@@ -481,8 +430,6 @@ can it be mentioned without damaging the respect that it inspires? Still
 further, morality and political economy must be taught in connection
 with this law--that is, under the supposition that it must be just, only
 because it is law.
-
-{9}
 
 Another effect of this deplorable perversion of the law is that it
 gives to human passions and to political struggles, and, in general, to
@@ -517,8 +464,6 @@ the most extended system differing from the most restricted in the
 conditions on which this incapacity depends, and which constitutes not a
 difference in principle, but in degree.
 
-{10}
-
 This motive is, that the elector does not stipulate for himself, but for
 everybody.
 
@@ -550,8 +495,6 @@ that the excluded classes would not quietly wait for their turn? Is
 it likely that the enfranchised classes would be very jealous of their
 privilege? And is it not clear, that the interest of all being one and
 the same, some would act without much inconvenience to the others?
-
-{11}
 
 But if the fatal principle should come to be introduced, that, under
 pretense of organization, regulation, protection, or encouragement, the
@@ -588,8 +531,6 @@ How is this argument to be answered? Yes, as long as it is admitted
 that the law may be diverted from its true mission, that it may violate
 property instead of securing it,
 
-{12}
-
 everybody will be wanting to manufacture law, either to defend himself
 against plunder, or to organize it for his own profit. The political
 question will always be prejudicial, predominant, and absorbing; in a
@@ -618,8 +559,6 @@ can, and perhaps will, cause the rupture of the Union. Indeed, a more
 astounding fact, in the heart of society, cannot be conceived than this:
 That law should have become an instrument of injustice. And if this fact
 occasions consequences so formidable to the United
-
-{13}
 
 States, where there is but one exception, what must it be with us in
 Europe, where it is a principle--a system?
@@ -654,8 +593,6 @@ Montalembert.
 This plunder may be only an exceptional blemish in the legislation of a
 people, and in this case, the best thing
 
-{14}
-
 that can be done is, without so many speeches and lamentations, to
 do away with it as soon as possible, notwithstanding the clamors of
 interested parties. But how is it to be distinguished? Very easily. See
@@ -687,8 +624,6 @@ that takes the name of socialism.
 
 Now socialism, thus defined, and forming a doctrinal body, what other
 war would you make against it than a
-
-{15}
 
 war of doctrine? You find this doctrine false, absurd, abominable.
 Refute it. This will be all the easier, the more false, absurd, and
@@ -724,8 +659,6 @@ determined, and there are only three solutions of it:
 
 Partial plunder, universal plunder, absence of plunder, amongst these we
 have to make our choice. The law can only produce one of these results.
-
-{16}
 
 Partial plunder. This is the system that prevailed so long as the
 elective privilege was partial; a system that is resorted to, to avoid
@@ -763,8 +696,6 @@ against its proper aim?
 Here I am taking on the most popular prejudice of our time. It is not
 considered enough that law should be just,
 
-{17}
-
 it must be philanthropic. It is not sufficient that it should guarantee
 to every citizen the free and inoffensive exercise of his faculties,
 applied to his physical, intellectual, and moral development; it is
@@ -797,8 +728,6 @@ always and everywhere. If the law itself performs the action it ought to
 repress, I say that plunder is still perpetrated, and even, in a social
 point of view, under aggravated circumstances. In this case,
 
-{18}
-
 however, he who profits from the plunder is not responsible for it;
 it is the law, the lawgiver, society itself, and this is where the
 political danger lies.
@@ -825,8 +754,6 @@ consequently the most sincere.
 Be that as it may, to conclude that legal plunder has one of its roots
 in misconceived philanthropy, is evidently to put intentions out of the
 question.
-
-{19}
 
 With this understanding, let us examine the value, the origin, and
 the tendency of this popular aspiration, which pretends to realize the
@@ -862,8 +789,6 @@ positively upon men. It substitutes the will of the legislator for their
 own will, the initiative of the legislator for their own initiative.
 They have no need to consult, to compare, or to foresee; the law does
 all that for them. The intellect is for them a useless
-
-{20}
 
 encumbrance; they cease to be men; they lose their personality, their
 liberty, their property.
@@ -901,8 +826,6 @@ plunder?
 You say, "There are men who have no money," and you apply to the law.
 But the law is not a self-supplied
 
-{21}
-
 fountain, whence every stream may obtain supplies independently of
 society. Nothing can enter the public treasury, in favor of one citizen
 or one class, but what other citizens and other classes have been forced
@@ -931,8 +854,6 @@ plunder.
 You say, "Here are men who are wanting in morality or religion," and
 you apply to the law; but law is force, and need I say how far it is a
 violent and absurd enterprise to introduce force in these matters?
-
-{22}
 
 As the result of its systems and of its efforts, it would seem that
 socialism, notwithstanding all its self-complacency, can scarcely
@@ -971,8 +892,6 @@ religion--should ever have gained ground in the political world? The
 modern politicians, particularly those of the Socialist school, found
 their different
 
-{23}
-
 theories upon one common hypothesis; and surely a more strange, a more
 presumptuous notion, could never have entered a human brain.
 
@@ -1005,8 +924,6 @@ the law of assistance, and the law of education.
 
 It is so true, that the Socialists look upon mankind as a subject for
 social experiments, that if, by chance, they
-
-{24}
 
 are not quite certain of the success of these experiments, they will
 request a portion of mankind, as a subject to experiment upon. It is
@@ -1044,8 +961,6 @@ men would only occupy themselves with religion to arrive at atheism,
 with instruction to come to ignorance, and with labor and exchange to be
 extinguished in misery.
 
-{25}
-
 Happily, according to these writers, there are some men, termed
 governors and legislators, upon whom Heaven has bestowed opposite
 tendencies, not for their own sake only, but for the sake of the rest of
@@ -1080,8 +995,6 @@ We will give a quotation from Bossuet:
      two professions, nor to adopt another.
 
 ... But there was one occupation which was
-
-{26}
 
 obliged to be common to all, this was the study of the laws and of
 wisdom; ignorance of religion and the political regulations of the
@@ -1118,8 +1031,6 @@ from without.
      been early cultivated by kings and colonies who had come
      from Egypt. From them they had
 
-{27}
-
 learned the exercises of the body, foot races, and horse and chariot
 races.... The best thing that the Egyptians had taught them was to
 become docile, and to allow themselves to be formed by the laws for the
@@ -1151,8 +1062,6 @@ but to that of their kings:
      We could not turn our eyes to the two shores, without
      perceiving rich towns and country seats, agreeably situated;
      fields that were covered every year,
-
-{28}
 
      without intermission, with golden crops; meadows full of
      flocks; laborers bending under the weight of fruits that the
@@ -1190,8 +1099,6 @@ say:
      punish these, for they are unknown in Crete.... No costly
      furniture, no magnificent clothing, no delicious feasts, no
      gilded palaces are allowed.
-
-{29}
 
 It is thus that Mentor prepares his scholar to mould and manipulate,
 doubtless with the most philanthropic intentions, the people of
@@ -1234,8 +1141,6 @@ force.
      It is worth our while to pay a little attention to the
      extent of genius required by these legislators, that
 
-{30}
-
      we may see how, by confounding all the virtues, they showed
      their wisdom to the world. Lycurgus, blending theft with the
      spirit of justice, the hardest slavery with extreme liberty,
@@ -1271,8 +1176,6 @@ force.
      should give our arts without our luxury, our wants without
      our desires.
 
-{31}
-
 Vulgar infatuation may exclaim, if it likes, "It is Montesquieu!
 magnificent! sublime!" I am not afraid to express my opinion, and to
 say:
@@ -1306,8 +1209,6 @@ them their trade in such imperative terms as the following:
      Would you give consistency to the State? Bring the
      extremes together as much as possible. Suffer neither
      wealthy persons nor beggars.
-
-{32}
 
      If the soil is poor and barren, or the country too much
      confined for the inhabitants, turn to industry and the arts,
@@ -1346,8 +1247,6 @@ But if Nature is sufficiently invincible to regain its empire, why does
 not Rousseau admit that it had no need of the legislator to gain its
 empire from the beginning?
 
-{33}
-
 Why does he not allow that by obeying their own impulse, men would of
 themselves apply agriculture to a fertile district, and commerce to
 extensive and commodious coasts without the interference of a Lycurgus,
@@ -1384,8 +1283,6 @@ RAYNAL--
 
      It is more especially in the distribution of property
      that the wisdom of legislation will appear. As a
-
-{34}
 
      general rule, and in every country, when a new colony is
      founded, land should be given to each man, sufficient for
@@ -1427,8 +1324,6 @@ suggest to him a plan of operation, which a professor can only vaguely
 trace, and in a way that would be subject to the uncertainty of all
 hypotheses, which vary and are complicated by an
 
-{35}
-
 infinity of circumstances too difficult to foresee and to combine.
 
 But, oh! sublime writers, deign to remember sometimes that this clay,
@@ -1465,8 +1360,6 @@ CONDILLAC--
      Take upon yourself, my lord, the character of Lycurgus or
      of Solon. Before you finish reading
 
-{36}
-
      this essay, amuse yourself with giving laws to some wild
      people in America or in Africa. Establish these roving men
      in fixed dwellings; teach them to keep flocks.... Endeavor
@@ -1502,8 +1395,6 @@ great prince, or a great legislator, or a great genius. These ages were
 reared in the study of antiquity; and antiquity presents everywhere--in
 Egypt, Persia, Greece, and Rome, the
 
-{37}
-
 spectacle of a few men molding mankind according to their fancy, and
 mankind to this end enslaved by force or by imposture. And what
 does this prove? That because men and society are improvable, error,
@@ -1534,8 +1425,6 @@ This tendency of the human race, it must be admitted, is greatly
 thwarted, particularly in our country, by the fatal disposition,
 resulting from classical teaching and common to all politicians, of
 placing themselves beyond
-
-{38}
 
 mankind, to arrange, organize, and regulate it, according to their
 fancy.
@@ -1577,8 +1466,6 @@ of the Spartan republic. The feeble and trusting disposition of Solon
 plunged Athens into slavery. This parallel contains the whole science of
 Government.
 
-{39}
-
 LEPELLETIER--
 
      Considering the extent of human degradation, I am
@@ -1612,8 +1499,6 @@ not been neglected. Listen to Robespierre:
      self-indulgence, probity for honor, principles for customs,
      duties for decorum, the empire of reason for the tyranny of
 
-{40}
-
      fashion, contempt of vice for contempt of misfortune, pride
      for insolence, greatness of soul for vanity, love of glory
      for love of money, good people for good company, merit for
@@ -1644,8 +1529,6 @@ Robespierre, shall have accomplished these miracles, as he rightly calls
 them, that he will allow the law to regain her empire. Truly it would be
 well if these visionaries, who think so much of themselves and so little
 of mankind, who want to
-
-{41}
 
 renew everything, would only be content with trying to reform
 themselves, the task would be arduous enough for them. In general,
@@ -1680,8 +1563,6 @@ organization of labor.
 
 In what does the impulse that power gives to society consist? In
 imposing upon it the project of Mr. Louis Blanc.
-
-{42}
 
 On the other hand, society is the human race. The human race, then, is
 to receive its impulse from Mr. Louis Blanc.
@@ -1720,8 +1601,6 @@ liberty?
      And this is no vain distinction; there is a deep meaning
      in it, and its consequences are imponderable. For
 
-{43}
-
      when once it is admitted that man, to be truly free, must
      have the power to exercise and develop his faculties, it
      follows that every member of society has a claim upon it for
@@ -1759,8 +1638,6 @@ Oh, then the people possess science by instinct: they are gifted with
 an admirable discernment; their will is always right; the general will
 cannot err. Suffrage cannot
 
-{44}
-
 be too universal. Nobody is under any responsibility to society. The
 will and the capacity to choose well are taken for granted. Can the
 people be mistaken? Are we not living in an age of enlightenment?
@@ -1791,8 +1668,6 @@ in proportion as they are free--take, for example, Switzerland, Holland,
 England, and the United States? Does not Mr. Louis Blanc tell us again
 that competition
 
-{45}
-
 leads to monopoly, and that, for the same reason, cheapness leads
 to exorbitant prices? That competition tends to drain the sources of
 consumption, and diverts production to a destructive activity?
@@ -1821,8 +1696,6 @@ men is attacked just to force them to associate.
 
 You must see, then, that the socialist democrats cannot in conscience
 allow men any liberty, because, by their own
-
-{46}
 
 nature, they tend in every instance to all kinds of degradation and
 demoralization.
@@ -1857,8 +1730,6 @@ Proudhonians, the Academics, and the Protectionists renouncing their
 own particular ideas; I would only have them renounce the idea that is
 common to them all--viz.,
 
-{47}
-
 that of subjecting us by force to their own categories and rankings
 to their social laboratories, to their ever-inflating bank, to their
 Greco-Roman morality, and to their commercial restrictions. I would
@@ -1892,8 +1763,6 @@ the same as those of the flock with the shepherd, it is clear that the
 responsibility of power is immense. Fortune and misfortune, wealth and
 destitution, equality and inequality all proceed from it. It is charged
 
-{48}
-
 with everything, it undertakes everything, it does everything; therefore
 it has to answer for everything. If we are happy, it has a right to
 claim our gratitude; but if we are miserable, it alone must bear the
@@ -1925,8 +1794,6 @@ not able to do it; if, in words that we regret should have escaped the
 pen of Mr. de Lamartine, "the State considers that its mission is to
 enlighten, to
 
-{49}
-
 develop, to enlarge, to strengthen, to spiritualize, and to sanctify the
 soul of the people"--if it fails in this, is it not obvious that after
 every disappointment, which, alas! is more than probable, there will be
@@ -1957,8 +1824,6 @@ domain of force, which is justice.
 
 And as every individual has a right to have recourse to force only in
 cases of lawful defense, so collective force, so which is only the union
-
-{50}
 
 of individual forces, cannot be rationally used for any other end.
 
@@ -1996,8 +1861,6 @@ Another, like Mr. Considérant, will take up the cause of the working
 classes, and claim for them by means of the law, at a fixed rate,
 clothing, lodging, food, and
 
-{51}
-
 everything necessary for the support of life. A third, Mr. Louis Blanc,
 will say, and with reason, that this would be an incomplete fraternity,
 and that the law ought to provide them with tools of labor and
@@ -2029,8 +1892,6 @@ But if the law were to be made upon the principle of fraternity, if
 it were to be proclaimed that from it proceed all benefits and all
 evils--that it is responsible for every individual grievance and for
 every social inequality--then
-
-{52}
 
 you open the door to an endless succession of complaints, irritations,
 troubles, and revolutions.
@@ -2064,8 +1925,6 @@ charity, we shall plunge headlong into atheism, isolation, ignorance,
 misery, and greed? Does it follow, that we shall no longer recognize the
 power and goodness of God; that we shall cease to associate together, to
 help each other, to love and assist our unfortunate brethren, to
-
-{53}
 
 study the secrets of nature, and to aspire after perfection in our
 existence?
@@ -2101,8 +1960,6 @@ correct themselves; where transactions, meetings, and associations are
 the least fettered; where labor, capital, and production suffer the
 least from artificial
 
-{54}
-
 displacements; where mankind follows most completely its own natural
 course; where the thought of God prevails the most over the inventions
 of men; those, in short, who realize the most nearly this idea that
@@ -2133,8 +1990,6 @@ unless I draw his ears down to his shoulders." A third said--"He will
 never see the light of the sun, unless I give his eyes an oblique
 direction." A fourth said--"He will never be upright, unless I bend his
 legs." A fifth said--"He will not be able to think, unless I press his
-
-{55}
 
 brain." "Stop!" said the traveler. "Whatever God does, is well done;
 do not pretend to know more than He; and as He has given organs to this
@@ -2229,10 +2084,6 @@ INDEX
         controlled, 33
         Greek, 26
 
-   {57}
-
-   {58}
-
         liberty in, 44
         free, 21, 22
         government provided, 22, 48
@@ -2308,8 +2159,6 @@ INDEX
    Law
         Cretan, 28
         defined, 2, 16
-
-   {59}
 
         Egyptian, 25, 26, 27, 28
         fraternity and, 17
@@ -2390,8 +2239,6 @@ INDEX
    Paraguay, 30
    Persia, 26
 
-   {60}
-
    Personality, 2
    Phalansteries, 55
    Philanthropy. See Charity
@@ -2468,8 +2315,6 @@ INDEX
    Socialists, vii
    Society enlightened, 37
 
-   {61}
-
         experiments, 23
         motive force, 40, 43
         object of, 36, 37
@@ -2519,348 +2364,3 @@ INDEX
    call the attention of my fellow-citizens.
 
    --Frédéric Bastiat
-
-*** END OF THE PROJECT GUTENBERG EBOOK THE LAW ***
-
-Updated editions will replace the previous one—the old editions will
-be renamed.
-
-Creating the works from print editions not protected by U.S. copyright
-law means that no one owns a United States copyright in these works,
-so the Foundation (and you!) can copy and distribute it in the United
-States without permission and without paying copyright
-royalties. Special rules, set forth in the General Terms of Use part
-of this license, apply to copying and distributing Project
-Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
-concept and trademark. Project Gutenberg is a registered trademark,
-and may not be used if you charge for an eBook, except by following
-the terms of the trademark license, including paying royalties for use
-of the Project Gutenberg trademark. If you do not charge anything for
-copies of this eBook, complying with the trademark license is very
-easy. You may use this eBook for nearly any purpose such as creation
-of derivative works, reports, performances and research. Project
-Gutenberg eBooks may be modified and printed and given away—you may
-do practically ANYTHING in the United States with eBooks not protected
-by U.S. copyright law. Redistribution is subject to the trademark
-license, especially commercial redistribution.
-
-START: FULL LICENSE
-
-THE FULL PROJECT GUTENBERG LICENSE
-
-PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
-
-To protect the Project Gutenberg™ mission of promoting the free
-distribution of electronic works, by using or distributing this work
-(or any other work associated in any way with the phrase “Project
-Gutenberg”), you agree to comply with all the terms of the Full
-Project Gutenberg™ License available with this file or online at
-www.gutenberg.org/license.
-
-Section 1. General Terms of Use and Redistributing Project Gutenberg™
-electronic works
-
-1.A. By reading or using any part of this Project Gutenberg™
-electronic work, you indicate that you have read, understand, agree to
-and accept all the terms of this license and intellectual property
-(trademark/copyright) agreement. If you do not agree to abide by all
-the terms of this agreement, you must cease using and return or
-destroy all copies of Project Gutenberg™ electronic works in your
-possession. If you paid a fee for obtaining a copy of or access to a
-Project Gutenberg™ electronic work and you do not agree to be bound
-by the terms of this agreement, you may obtain a refund from the person
-or entity to whom you paid the fee as set forth in paragraph 1.E.8.
-
-1.B. “Project Gutenberg” is a registered trademark. It may only be
-used on or associated in any way with an electronic work by people who
-agree to be bound by the terms of this agreement. There are a few
-things that you can do with most Project Gutenberg™ electronic works
-even without complying with the full terms of this agreement. See
-paragraph 1.C below. There are a lot of things you can do with Project
-Gutenberg™ electronic works if you follow the terms of this
-agreement and help preserve free future access to Project Gutenberg™
-electronic works. See paragraph 1.E below.
-
-1.C. The Project Gutenberg Literary Archive Foundation (“the
-Foundation” or PGLAF), owns a compilation copyright in the collection
-of Project Gutenberg™ electronic works. Nearly all the individual
-works in the collection are in the public domain in the United
-States. If an individual work is unprotected by copyright law in the
-United States and you are located in the United States, we do not
-claim a right to prevent you from copying, distributing, performing,
-displaying or creating derivative works based on the work as long as
-all references to Project Gutenberg are removed. Of course, we hope
-that you will support the Project Gutenberg™ mission of promoting
-free access to electronic works by freely sharing Project Gutenberg™
-works in compliance with the terms of this agreement for keeping the
-Project Gutenberg™ name associated with the work. You can easily
-comply with the terms of this agreement by keeping this work in the
-same format with its attached full Project Gutenberg™ License when
-you share it without charge with others.
-
-1.D. The copyright laws of the place where you are located also govern
-what you can do with this work. Copyright laws in most countries are
-in a constant state of change. If you are outside the United States,
-check the laws of your country in addition to the terms of this
-agreement before downloading, copying, displaying, performing,
-distributing or creating derivative works based on this work or any
-other Project Gutenberg™ work. The Foundation makes no
-representations concerning the copyright status of any work in any
-country other than the United States.
-
-1.E. Unless you have removed all references to Project Gutenberg:
-
-1.E.1. The following sentence, with active links to, or other
-immediate access to, the full Project Gutenberg™ License must appear
-prominently whenever any copy of a Project Gutenberg™ work (any work
-on which the phrase “Project Gutenberg” appears, or with which the
-phrase “Project Gutenberg” is associated) is accessed, displayed,
-performed, viewed, copied or distributed:
-
-    This eBook is for the use of anyone anywhere in the United States and most
-    other parts of the world at no cost and with almost no restrictions
-    whatsoever. You may copy it, give it away or re-use it under the terms
-    of the Project Gutenberg License included with this eBook or online
-    at www.gutenberg.org. If you
-    are not located in the United States, you will have to check the laws
-    of the country where you are located before using this eBook.
-
-1.E.2. If an individual Project Gutenberg™ electronic work is
-derived from texts not protected by U.S. copyright law (does not
-contain a notice indicating that it is posted with permission of the
-copyright holder), the work can be copied and distributed to anyone in
-the United States without paying any fees or charges. If you are
-redistributing or providing access to a work with the phrase “Project
-Gutenberg” associated with or appearing on the work, you must comply
-either with the requirements of paragraphs 1.E.1 through 1.E.7 or
-obtain permission for the use of the work and the Project Gutenberg™
-trademark as set forth in paragraphs 1.E.8 or 1.E.9.
-
-1.E.3. If an individual Project Gutenberg™ electronic work is posted
-with the permission of the copyright holder, your use and distribution
-must comply with both paragraphs 1.E.1 through 1.E.7 and any
-additional terms imposed by the copyright holder. Additional terms
-will be linked to the Project Gutenberg™ License for all works
-posted with the permission of the copyright holder found at the
-beginning of this work.
-
-1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
-License terms from this work, or any files containing a part of this
-work or any other work associated with Project Gutenberg™.
-
-1.E.5. Do not copy, display, perform, distribute or redistribute this
-electronic work, or any part of this electronic work, without
-prominently displaying the sentence set forth in paragraph 1.E.1 with
-active links or immediate access to the full terms of the Project
-Gutenberg™ License.
-
-1.E.6. You may convert to and distribute this work in any binary,
-compressed, marked up, nonproprietary or proprietary form, including
-any word processing or hypertext form. However, if you provide access
-to or distribute copies of a Project Gutenberg™ work in a format
-other than “Plain Vanilla ASCII” or other format used in the official
-version posted on the official Project Gutenberg™ website
-(www.gutenberg.org), you must, at no additional cost, fee or expense
-to the user, provide a copy, a means of exporting a copy, or a means
-of obtaining a copy upon request, of the work in its original “Plain
-Vanilla ASCII” or other form. Any alternate format must include the
-full Project Gutenberg™ License as specified in paragraph 1.E.1.
-
-1.E.7. Do not charge a fee for access to, viewing, displaying,
-performing, copying or distributing any Project Gutenberg™ works
-unless you comply with paragraph 1.E.8 or 1.E.9.
-
-1.E.8. You may charge a reasonable fee for copies of or providing
-access to or distributing Project Gutenberg™ electronic works
-provided that:
-
-    • You pay a royalty fee of 20% of the gross profits you derive from
-        the use of Project Gutenberg™ works calculated using the method
-        you already use to calculate your applicable taxes. The fee is owed
-        to the owner of the Project Gutenberg™ trademark, but he has
-        agreed to donate royalties under this paragraph to the Project
-        Gutenberg Literary Archive Foundation. Royalty payments must be paid
-        within 60 days following each date on which you prepare (or are
-        legally required to prepare) your periodic tax returns. Royalty
-        payments should be clearly marked as such and sent to the Project
-        Gutenberg Literary Archive Foundation at the address specified in
-        Section 4, “Information about donations to the Project Gutenberg
-        Literary Archive Foundation.”
-
-    • You provide a full refund of any money paid by a user who notifies
-        you in writing (or by e-mail) within 30 days of receipt that s/he
-        does not agree to the terms of the full Project Gutenberg™
-        License. You must require such a user to return or destroy all
-        copies of the works possessed in a physical medium and discontinue
-        all use of and all access to other copies of Project Gutenberg™
-        works.
-
-    • You provide, in accordance with paragraph 1.F.3, a full refund of
-        any money paid for a work or a replacement copy, if a defect in the
-        electronic work is discovered and reported to you within 90 days of
-        receipt of the work.
-
-    • You comply with all other terms of this agreement for free
-        distribution of Project Gutenberg™ works.
-
-1.E.9. If you wish to charge a fee or distribute a Project
-Gutenberg™ electronic work or group of works on different terms than
-are set forth in this agreement, you must obtain permission in writing
-from the Project Gutenberg Literary Archive Foundation, the manager of
-the Project Gutenberg™ trademark. Contact the Foundation as set
-forth in Section 3 below.
-
-1.F.
-
-1.F.1. Project Gutenberg volunteers and employees expend considerable
-effort to identify, do copyright research on, transcribe and proofread
-works not protected by U.S. copyright law in creating the Project
-Gutenberg™ collection. Despite these efforts, Project Gutenberg™
-electronic works, and the medium on which they may be stored, may
-contain “Defects,” such as, but not limited to, incomplete, inaccurate
-or corrupt data, transcription errors, a copyright or other
-intellectual property infringement, a defective or damaged disk or
-other medium, a computer virus, or computer codes that damage or
-cannot be read by your equipment.
-
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
-of Replacement or Refund” described in paragraph 1.F.3, the Project
-Gutenberg Literary Archive Foundation, the owner of the Project
-Gutenberg™ trademark, and any other party distributing a Project
-Gutenberg™ electronic work under this agreement, disclaim all
-liability to you for damages, costs and expenses, including legal
-fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
-LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
-PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
-TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
-LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
-INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
-DAMAGE.
-
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
-defect in this electronic work within 90 days of receiving it, you can
-receive a refund of the money (if any) you paid for it by sending a
-written explanation to the person you received the work from. If you
-received the work on a physical medium, you must return the medium
-with your written explanation. The person or entity that provided you
-with the defective work may elect to provide a replacement copy in
-lieu of a refund. If you received the work electronically, the person
-or entity providing it to you may choose to give you a second
-opportunity to receive the work electronically in lieu of a refund. If
-the second copy is also defective, you may demand a refund in writing
-without further opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth
-in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
-OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
-
-1.F.5. Some states do not allow disclaimers of certain implied
-warranties or the exclusion or limitation of certain types of
-damages. If any disclaimer or limitation set forth in this agreement
-violates the law of the state applicable to this agreement, the
-agreement shall be interpreted to make the maximum disclaimer or
-limitation permitted by the applicable state law. The invalidity or
-unenforceability of any provision of this agreement shall not void the
-remaining provisions.
-
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
-trademark owner, any agent or employee of the Foundation, anyone
-providing copies of Project Gutenberg™ electronic works in
-accordance with this agreement, and any volunteers associated with the
-production, promotion and distribution of Project Gutenberg™
-electronic works, harmless from all liability, costs and expenses,
-including legal fees, that arise directly or indirectly from any of
-the following which you do or cause to occur: (a) distribution of this
-or any Project Gutenberg™ work, (b) alteration, modification, or
-additions or deletions to any Project Gutenberg™ work, and (c) any
-Defect you cause.
-
-Section 2. Information about the Mission of Project Gutenberg™
-
-Project Gutenberg™ is synonymous with the free distribution of
-electronic works in formats readable by the widest variety of
-computers including obsolete, old, middle-aged and new computers. It
-exists because of the efforts of hundreds of volunteers and donations
-from people in all walks of life.
-
-Volunteers and financial support to provide volunteers with the
-assistance they need are critical to reaching Project Gutenberg™’s
-goals and ensuring that the Project Gutenberg™ collection will
-remain freely available for generations to come. In 2001, the Project
-Gutenberg Literary Archive Foundation was created to provide a secure
-and permanent future for Project Gutenberg™ and future
-generations. To learn more about the Project Gutenberg Literary
-Archive Foundation and how your efforts and donations can help, see
-Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
-
-Section 3. Information about the Project Gutenberg Literary Archive Foundation
-
-The Project Gutenberg Literary Archive Foundation is a non-profit
-501(c)(3) educational corporation organized under the laws of the
-state of Mississippi and granted tax exempt status by the Internal
-Revenue Service. The Foundation’s EIN or federal tax identification
-number is 64-6221541. Contributions to the Project Gutenberg Literary
-Archive Foundation are tax deductible to the full extent permitted by
-U.S. federal laws and your state’s laws.
-
-The Foundation’s business office is located at 809 North 1500 West,
-Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
-to date contact information can be found at the Foundation’s website
-and official page at www.gutenberg.org/contact
-
-Section 4. Information about Donations to the Project Gutenberg
-Literary Archive Foundation
-
-Project Gutenberg™ depends upon and cannot survive without widespread
-public support and donations to carry out its mission of
-increasing the number of public domain and licensed works that can be
-freely distributed in machine-readable form accessible by the widest
-array of equipment including outdated equipment. Many small donations
-($1 to $5,000) are particularly important to maintaining tax exempt
-status with the IRS.
-
-The Foundation is committed to complying with the laws regulating
-charities and charitable donations in all 50 states of the United
-States. Compliance requirements are not uniform and it takes a
-considerable effort, much paperwork and many fees to meet and keep up
-with these requirements. We do not solicit donations in locations
-where we have not received written confirmation of compliance. To SEND
-DONATIONS or determine the status of compliance for any particular state
-visit www.gutenberg.org/donate.
-
-While we cannot and do not solicit contributions from states where we
-have not met the solicitation requirements, we know of no prohibition
-against accepting unsolicited donations from donors in such states who
-approach us with offers to donate.
-
-International donations are gratefully accepted, but we cannot make
-any statements concerning tax treatment of donations received from
-outside the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg web pages for current donation
-methods and addresses. Donations are accepted in a number of other
-ways including checks, online payments and credit card donations. To
-donate, please visit: www.gutenberg.org/donate.
-
-Section 5. General Information About Project Gutenberg™ electronic works
-
-Professor Michael S. Hart was the originator of the Project
-Gutenberg™ concept of a library of electronic works that could be
-freely shared with anyone. For forty years, he produced and
-distributed Project Gutenberg™ eBooks with only a loose network of
-volunteer support.
-
-Project Gutenberg™ eBooks are often created from several printed
-editions, all of which are confirmed as not protected by copyright in
-the U.S. unless a copyright notice is included. Thus, we do not
-necessarily keep eBooks in compliance with any particular paper
-edition.
-
-Most people start at our website which has the main PG search
-facility: www.gutenberg.org.
-
-This website includes information about Project Gutenberg™,
-including how to make donations to the Project Gutenberg Literary
-Archive Foundation, how to help produce our new eBooks, and how to
-subscribe to our email newsletter to hear about new eBooks.

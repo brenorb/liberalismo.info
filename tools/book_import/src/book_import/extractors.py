@@ -27,9 +27,17 @@ def _normalize_text(text: str) -> str:
     return text.strip()
 
 
+def _download_suffix(url: str) -> str:
+    path = urlparse(url).path.lower()
+    if path.endswith(".txt.utf-8"):
+        return ".txt"
+    if path.endswith(".html.images") or path.endswith(".html.noimages"):
+        return ".html"
+    return Path(path).suffix or ".bin"
+
+
 def download_source(url: str, destination_dir: Path) -> Path:
-    parsed = urlparse(url)
-    suffix = Path(parsed.path).suffix or ".bin"
+    suffix = _download_suffix(url)
     destination = destination_dir / f"downloaded-source{suffix}"
     response = requests.get(
         url,

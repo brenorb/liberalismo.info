@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import click
 
+from book_import.classical_catalog import build_catalog
 from book_import.extractors import extract_text, prepare_source
 from book_import.pipeline import WorkInput, WorkMetadata, build_work_markdown, make_slug
 
@@ -87,3 +89,99 @@ def ingest(
         click.echo(f"Wrote {output}")
     finally:
         cleanup()
+
+
+AUTHOR_PAGE_TEMPLATE = """---
+layout: page
+title: "{name}"
+subtitle: "{subtitle}"
+permalink: /authors/{slug}/
+author_key: {key}
+---
+{{% assign author = site.data.catalog.authors | where: "key", page.author_key | first %}}
+
+## Short bio
+{{{{ author.bio }}}}
+
+## Works on this site
+{{% assign works = site.data.catalog.works | where: "author_key", page.author_key %}}
+{{% for work in works %}}
+- [{{{{ work.title }}}}](/library/{{{{ work.slug }}}}/)
+{{% endfor %}}
+
+## Portuguese (pt-BR)
+{{{{ author.bio_pt_br }}}}
+"""
+
+
+AUTHORS_INDEX_TEMPLATE = """---
+layout: page
+title: Authors
+subtitle: Indexed author pages
+permalink: /authors/
+---
+
+# Authors
+
+{% for author in site.data.catalog.authors %}
+- [{{ author.name }}](/authors/{{ author.slug }}/)
+{% endfor %}
+
+## Portuguese (pt-BR)
+Indice de autores catalogados no site.
+"""
+
+
+@main.command("sync-classical-catalog")
+@click.option("--repo-root", type=click.Path(path_type=Path), default=Path.cwd(), show_default=True)
+@click.option("--limit", type=int, default=None, help="Only ingest the first N full-text works.")
+def sync_classical_catalog(repo_root: Path, limit: int | None) -> None:
+    catalog = build_catalog()
+    authors_dir = repo_root / "authors"
+    authors_dir.mkdir(parents=True, exist_ok=True)
+    data_dir = repo_root / "_data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    library_dir = repo_root / "library"
+    library_dir.mkdir(parents=True, exist_ok=True)
+
+    (data_dir / "catalog.json").write_text(
+        json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    (authors_dir / "index.md").write_text(AUTHORS_INDEX_TEMPLATE, encoding="utf-8")
+
+    for author in catalog["authors"]:
+        page = AUTHOR_PAGE_TEMPLATE.format(**author)
+        (authors_dir / f"{author['slug']}.md").write_text(page, encoding="utf-8")
+
+    fulltext_works = [work for work in catalog["works"] if work["mode"] == "fulltext"]
+    if limit is not None:
+        fulltext_works = fulltext_works[:limit]
+
+    for work in fulltext_works:
+        local_source, cleanup = prepare_source(str(work["source_text_url"]))
+        try:
+            extracted = extract_text(local_source)
+            metadata = WorkMetadata(
+                title=str(work["title"]),
+                author=str(work["author"]),
+                year_first_published=int(work["year_first_published"]),
+                original_language=str(work["original_language"]),
+                source_url=str(work["source_url"]),
+                tags=[str(tag) for tag in work["tags"]],
+                source_format=local_source.suffix.lower().lstrip("."),
+                slug=str(work["slug"]),
+            )
+            markdown = build_work_markdown(
+                WorkInput(
+                    metadata=metadata,
+                    editorial_note="This page reproduces historical text for educational use.",
+                    text_body=extracted.text,
+                    source_credit=f"Project Gutenberg edition [{extracted.strategy}]",
+                )
+            )
+            output = library_dir / f"{work['slug']}.md"
+            output.write_text(markdown, encoding="utf-8")
+            click.echo(f"Wrote {output}")
+        finally:
+            cleanup()

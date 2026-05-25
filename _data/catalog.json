@@ -1,0 +1,1351 @@
+{
+  "authors": [
+    {
+      "key": "adam-smith",
+      "name": "Adam Smith",
+      "slug": "adam-smith",
+      "subtitle": "Scottish moral philosopher and political economist",
+      "bio": "Adam Smith (1723-1790) connected moral psychology, commercial society, and political economy in ways that became foundational for classical liberal thought.",
+      "bio_pt_br": "Adam Smith (1723-1790) conectou psicologia moral, sociedade comercial e economia politica de modo decisivo para o liberalismo classico."
+    },
+    {
+      "key": "alexis-de-tocqueville",
+      "name": "Alexis de Tocqueville",
+      "slug": "alexis-de-tocqueville",
+      "subtitle": "French analyst of democracy, civil society, and centralization",
+      "bio": "Alexis de Tocqueville (1805-1859) studied democracy as a social condition, pairing admiration for self-government with warnings about centralization and majority pressure.",
+      "bio_pt_br": "Alexis de Tocqueville (1805-1859) estudou a democracia como condicao social, admirando o autogoverno e alertando contra centralizacao e tirania da maioria."
+    },
+    {
+      "key": "david-hume",
+      "name": "David Hume",
+      "slug": "david-hume",
+      "subtitle": "Scottish philosopher, essayist, and historian",
+      "bio": "David Hume (1711-1776) brought skepticism, moral psychology, and institutional realism into debates that deeply shaped liberal political thought.",
+      "bio_pt_br": "David Hume (1711-1776) levou ceticismo, psicologia moral e realismo institucional a debates que marcaram o pensamento liberal."
+    },
+    {
+      "key": "f-a-hayek",
+      "name": "F. A. Hayek",
+      "slug": "f-a-hayek",
+      "subtitle": "Austrian-British theorist of spontaneous order and rule-based liberty",
+      "bio": "F. A. Hayek (1899-1992) defended dispersed knowledge, spontaneous order, and constitutional limits against comprehensive planning.",
+      "bio_pt_br": "F. A. Hayek (1899-1992) defendeu conhecimento disperso, ordem espontanea e limites constitucionais contra o planejamento abrangente."
+    },
+    {
+      "key": "frederic-bastiat",
+      "name": "Frederic Bastiat",
+      "slug": "frederic-bastiat",
+      "subtitle": "French classical liberal economist and polemic writer",
+      "bio": "Frederic Bastiat (1801-1850) wrote concise and durable arguments on law, free exchange, protectionism, and the seen and unseen effects of public policy.",
+      "bio_pt_br": "Frederic Bastiat (1801-1850) escreveu argumentos concisos e duradouros sobre lei, troca livre, protecionismo e efeitos vistos e nao vistos das politicas publicas."
+    },
+    {
+      "key": "herbert-spencer",
+      "name": "Herbert Spencer",
+      "slug": "herbert-spencer",
+      "subtitle": "English individualist theorist of evolution, ethics, and the limits of the state",
+      "bio": "Herbert Spencer (1820-1903) linked social evolution, individual liberty, and skepticism toward state overreach in a strongly individualist liberal register.",
+      "bio_pt_br": "Herbert Spencer (1820-1903) articulou evolucao social, liberdade individual e ceticismo quanto a expansao estatal em um registro liberal fortemente individualista."
+    },
+    {
+      "key": "john-locke",
+      "name": "John Locke",
+      "slug": "john-locke",
+      "subtitle": "English philosopher of natural rights and limited government",
+      "bio": "John Locke (1632-1704) remains central to liberal accounts of consent, rights, property, toleration, and the justified limits of political power.",
+      "bio_pt_br": "John Locke (1632-1704) segue central para concepcoes liberais de consentimento, direitos, propriedade, tolerancia e limites legitimos do poder politico."
+    },
+    {
+      "key": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "slug": "john-stuart-mill",
+      "subtitle": "English liberal philosopher of liberty, individuality, and reform",
+      "bio": "John Stuart Mill (1806-1873) expanded liberal arguments on individuality, speech, representative institutions, political economy, and social reform.",
+      "bio_pt_br": "John Stuart Mill (1806-1873) ampliou os argumentos liberais sobre individualidade, liberdade de expressao, instituicoes representativas, economia politica e reforma social."
+    }
+  ],
+  "works": [
+    {
+      "title": "The Law (A Lei)",
+      "slug": "the-law",
+      "url": "/library/the-law/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1850,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/44800",
+      "source_text_url": "https://www.gutenberg.org/ebooks/44800.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "economics",
+        "law",
+        "state"
+      ],
+      "excerpt": "Bastiat's classic defense of law as protection of person, liberty, and property.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "liberalism, economics, law, state"
+    },
+    {
+      "title": "Economic Sophisms",
+      "slug": "economic-sophisms",
+      "url": "/library/economic-sophisms/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1845,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/44145",
+      "source_text_url": "https://www.gutenberg.org/ebooks/44145.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "economics",
+        "free-trade"
+      ],
+      "excerpt": "A collection of anti-protectionist arguments aimed at common economic fallacies.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "liberalism, economics, free-trade"
+    },
+    {
+      "title": "Harmonies of Political Economy",
+      "slug": "harmonies-of-political-economy",
+      "url": "/library/harmonies-of-political-economy/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1850,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/45002",
+      "source_text_url": "https://www.gutenberg.org/ebooks/45002.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "markets"
+      ],
+      "excerpt": "Bastiat's longer argument for social cooperation through exchange and spontaneous coordination.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "economics, liberalism, markets"
+    },
+    {
+      "title": "Essays on Political Economy",
+      "slug": "essays-on-political-economy",
+      "url": "/library/essays-on-political-economy/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1848,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/15962",
+      "source_text_url": "https://www.gutenberg.org/ebooks/15962.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "state"
+      ],
+      "excerpt": "Short essays on state action, exchange, taxation, and economic reasoning.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "economics, liberalism, state"
+    },
+    {
+      "title": "Sophisms of the Protectionists",
+      "slug": "sophisms-of-the-protectionists",
+      "url": "/library/sophisms-of-the-protectionists/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1846,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/20161",
+      "source_text_url": "https://www.gutenberg.org/ebooks/20161.txt.utf-8",
+      "tags": [
+        "free-trade",
+        "liberalism",
+        "protectionism"
+      ],
+      "excerpt": "A focused attack on the arguments used to justify tariffs and industrial privilege.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "free-trade, liberalism, protectionism"
+    },
+    {
+      "title": "What Is Free Trade?",
+      "slug": "what-is-free-trade",
+      "url": "/library/what-is-free-trade/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1845,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/16106",
+      "source_text_url": "https://www.gutenberg.org/ebooks/16106.txt.utf-8",
+      "tags": [
+        "free-trade",
+        "liberalism",
+        "economics"
+      ],
+      "excerpt": "Bastiat's accessible explanation of what free trade means in practical and moral terms.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "free-trade, liberalism, economics"
+    },
+    {
+      "title": "Protection and Communism",
+      "slug": "protection-and-communism",
+      "url": "/library/protection-and-communism/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1850,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/44144",
+      "source_text_url": "https://www.gutenberg.org/ebooks/44144.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "protectionism",
+        "state"
+      ],
+      "excerpt": "A polemical essay connecting protectionist privilege to broader anti-liberal politics.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "liberalism, protectionism, state"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 1",
+      "slug": "oeuvres-completes-bastiat-tome-1",
+      "url": "/library/oeuvres-completes-bastiat-tome-1/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1854,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/35390",
+      "source_text_url": "https://www.gutenberg.org/ebooks/35390.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "free-trade"
+      ],
+      "excerpt": "Collected writings from Bastiat's first posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, free-trade"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 2",
+      "slug": "oeuvres-completes-bastiat-tome-2",
+      "url": "/library/oeuvres-completes-bastiat-tome-2/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1854,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/42300",
+      "source_text_url": "https://www.gutenberg.org/ebooks/42300.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "law"
+      ],
+      "excerpt": "Collected writings from Bastiat's second posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, law"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 3",
+      "slug": "oeuvres-completes-bastiat-tome-3",
+      "url": "/library/oeuvres-completes-bastiat-tome-3/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1854,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/43315",
+      "source_text_url": "https://www.gutenberg.org/ebooks/43315.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "state"
+      ],
+      "excerpt": "Collected writings from Bastiat's third posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, state"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 4",
+      "slug": "oeuvres-completes-bastiat-tome-4",
+      "url": "/library/oeuvres-completes-bastiat-tome-4/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1855,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/46625",
+      "source_text_url": "https://www.gutenberg.org/ebooks/46625.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "politics"
+      ],
+      "excerpt": "Collected writings from Bastiat's fourth posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, politics"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 5",
+      "slug": "oeuvres-completes-bastiat-tome-5",
+      "url": "/library/oeuvres-completes-bastiat-tome-5/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1855,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/46626",
+      "source_text_url": "https://www.gutenberg.org/ebooks/46626.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "liberty"
+      ],
+      "excerpt": "Collected writings from Bastiat's fifth posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, liberty"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 6",
+      "slug": "oeuvres-completes-bastiat-tome-6",
+      "url": "/library/oeuvres-completes-bastiat-tome-6/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1855,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/46627",
+      "source_text_url": "https://www.gutenberg.org/ebooks/46627.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "public-policy"
+      ],
+      "excerpt": "Collected writings from Bastiat's sixth posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, public-policy"
+    },
+    {
+      "title": "Oeuvres Completes de Frederic Bastiat, tome 7",
+      "slug": "oeuvres-completes-bastiat-tome-7",
+      "url": "/library/oeuvres-completes-bastiat-tome-7/",
+      "author_key": "frederic-bastiat",
+      "year_first_published": 1855,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/46628",
+      "source_text_url": "https://www.gutenberg.org/ebooks/46628.txt.utf-8",
+      "tags": [
+        "classical-liberalism",
+        "economics",
+        "institutions"
+      ],
+      "excerpt": "Collected writings from Bastiat's seventh posthumous French volume.",
+      "mode": "fulltext",
+      "author": "Frederic Bastiat",
+      "subtitle": "Frederic Bastiat",
+      "search_tags": "classical-liberalism, economics, institutions"
+    },
+    {
+      "title": "On Liberty",
+      "slug": "on-liberty",
+      "url": "/library/on-liberty/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1859,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/34901",
+      "source_text_url": "https://www.gutenberg.org/ebooks/34901.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "freedom",
+        "individual-rights"
+      ],
+      "excerpt": "Mill's defense of individuality, free expression, and the harm principle.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, freedom, individual-rights"
+    },
+    {
+      "title": "A System of Logic, Ratiocinative and Inductive",
+      "slug": "a-system-of-logic",
+      "url": "/library/a-system-of-logic/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1843,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/27942",
+      "source_text_url": "https://www.gutenberg.org/ebooks/27942.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "knowledge",
+        "method"
+      ],
+      "excerpt": "Mill's major work on logic, induction, and the methods of inquiry.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, knowledge, method"
+    },
+    {
+      "title": "The Subjection of Women",
+      "slug": "the-subjection-of-women",
+      "url": "/library/the-subjection-of-women/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1869,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/27083",
+      "source_text_url": "https://www.gutenberg.org/ebooks/27083.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "equality",
+        "women"
+      ],
+      "excerpt": "Mill argues that legal and social subordination of women is incompatible with justice and liberty.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, equality, women"
+    },
+    {
+      "title": "Utilitarianism",
+      "slug": "utilitarianism",
+      "url": "/library/utilitarianism/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1863,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/11224",
+      "source_text_url": "https://www.gutenberg.org/ebooks/11224.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "ethics",
+        "utilitarianism"
+      ],
+      "excerpt": "A compact statement of Mill's moral theory and its relation to higher pleasures.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, ethics, utilitarianism"
+    },
+    {
+      "title": "Considerations on Representative Government",
+      "slug": "considerations-on-representative-government",
+      "url": "/library/considerations-on-representative-government/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1861,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/5669",
+      "source_text_url": "https://www.gutenberg.org/ebooks/5669.txt.utf-8",
+      "tags": [
+        "democracy",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "Mill on representative institutions, political competence, and the design of self-government.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "democracy, institutions, liberalism"
+    },
+    {
+      "title": "Principles of Political Economy",
+      "slug": "principles-of-political-economy",
+      "url": "/library/principles-of-political-economy/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1848,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/30107",
+      "source_text_url": "https://www.gutenberg.org/ebooks/30107.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "political-economy"
+      ],
+      "excerpt": "Mill's wide-ranging synthesis of production, distribution, exchange, and reform.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "economics, liberalism, political-economy"
+    },
+    {
+      "title": "Autobiography",
+      "slug": "autobiography-of-john-stuart-mill",
+      "url": "/library/autobiography-of-john-stuart-mill/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1873,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/10378",
+      "source_text_url": "https://www.gutenberg.org/ebooks/10378.txt.utf-8",
+      "tags": [
+        "biography",
+        "intellectual-history",
+        "liberalism"
+      ],
+      "excerpt": "Mill's account of his education, intellectual formation, and political commitments.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "biography, intellectual-history, liberalism"
+    },
+    {
+      "title": "Auguste Comte and Positivism",
+      "slug": "auguste-comte-and-positivism",
+      "url": "/library/auguste-comte-and-positivism/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1865,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/16833",
+      "source_text_url": "https://www.gutenberg.org/ebooks/16833.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "science",
+        "social-theory"
+      ],
+      "excerpt": "Mill's critique and partial engagement with Comte's positivist social philosophy.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, science, social-theory"
+    },
+    {
+      "title": "Socialism",
+      "slug": "socialism-by-john-stuart-mill",
+      "url": "/library/socialism-by-john-stuart-mill/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1879,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/38138",
+      "source_text_url": "https://www.gutenberg.org/ebooks/38138.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "socialism",
+        "political-economy"
+      ],
+      "excerpt": "Mill's late reflections on socialist proposals, cooperation, and the limits of reform.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "liberalism, socialism, political-economy"
+    },
+    {
+      "title": "The Contest in America",
+      "slug": "the-contest-in-america",
+      "url": "/library/the-contest-in-america/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1862,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/5123",
+      "source_text_url": "https://www.gutenberg.org/ebooks/5123.txt.utf-8",
+      "tags": [
+        "america",
+        "democracy",
+        "liberalism"
+      ],
+      "excerpt": "Mill's intervention on the American conflict and its political-moral stakes.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "america, democracy, liberalism"
+    },
+    {
+      "title": "Essays on Some Unsettled Questions of Political Economy",
+      "slug": "essays-on-some-unsettled-questions-of-political-economy",
+      "url": "/library/essays-on-some-unsettled-questions-of-political-economy/",
+      "author_key": "john-stuart-mill",
+      "year_first_published": 1844,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/12004",
+      "source_text_url": "https://www.gutenberg.org/ebooks/12004.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "political-economy"
+      ],
+      "excerpt": "Early Mill essays on method, international trade, and unresolved economic disputes.",
+      "mode": "fulltext",
+      "author": "John Stuart Mill",
+      "subtitle": "John Stuart Mill",
+      "search_tags": "economics, liberalism, political-economy"
+    },
+    {
+      "title": "Essays on Education and Kindred Subjects",
+      "slug": "essays-on-education-and-kindred-subjects",
+      "url": "/library/essays-on-education-and-kindred-subjects/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1861,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/16510",
+      "source_text_url": "https://www.gutenberg.org/ebooks/16510.txt.utf-8",
+      "tags": [
+        "education",
+        "individualism",
+        "liberalism"
+      ],
+      "excerpt": "Spencer's essays on education, development, and self-formation.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "education, individualism, liberalism"
+    },
+    {
+      "title": "First Principles",
+      "slug": "first-principles",
+      "url": "/library/first-principles/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1862,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/55046",
+      "source_text_url": "https://www.gutenberg.org/ebooks/55046.txt.utf-8",
+      "tags": [
+        "evolution",
+        "liberalism",
+        "philosophy"
+      ],
+      "excerpt": "Spencer's broad philosophical starting point for his synthetic system.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "evolution, liberalism, philosophy"
+    },
+    {
+      "title": "Illustrations of Universal Progress",
+      "slug": "illustrations-of-universal-progress",
+      "url": "/library/illustrations-of-universal-progress/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1857,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/39977",
+      "source_text_url": "https://www.gutenberg.org/ebooks/39977.txt.utf-8",
+      "tags": [
+        "evolution",
+        "liberalism",
+        "social-theory"
+      ],
+      "excerpt": "A set of discussions where Spencer applies evolutionary reasoning across domains.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "evolution, liberalism, social-theory"
+    },
+    {
+      "title": "Essays: Scientific, Political, and Speculative, Vol. 1",
+      "slug": "spencer-essays-vol-1",
+      "url": "/library/spencer-essays-vol-1/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1858,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/29869",
+      "source_text_url": "https://www.gutenberg.org/ebooks/29869.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "politics",
+        "science"
+      ],
+      "excerpt": "The first volume of Spencer's collected essays across science and politics.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "liberalism, politics, science"
+    },
+    {
+      "title": "Essays: Scientific, Political, and Speculative, Vol. 2",
+      "slug": "spencer-essays-vol-2",
+      "url": "/library/spencer-essays-vol-2/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1863,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/53395",
+      "source_text_url": "https://www.gutenberg.org/ebooks/53395.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "politics",
+        "science"
+      ],
+      "excerpt": "The second volume of Spencer's collected essays across science and politics.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "liberalism, politics, science"
+    },
+    {
+      "title": "Essays: Scientific, Political, and Speculative, Vol. 3",
+      "slug": "spencer-essays-vol-3",
+      "url": "/library/spencer-essays-vol-3/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1874,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/54076",
+      "source_text_url": "https://www.gutenberg.org/ebooks/54076.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "politics",
+        "science"
+      ],
+      "excerpt": "The third volume of Spencer's collected essays across science and politics.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "liberalism, politics, science"
+    },
+    {
+      "title": "The Philosophy of Style",
+      "slug": "the-philosophy-of-style",
+      "url": "/library/the-philosophy-of-style/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1852,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/5849",
+      "source_text_url": "https://www.gutenberg.org/ebooks/5849.txt.utf-8",
+      "tags": [
+        "language",
+        "liberalism",
+        "style"
+      ],
+      "excerpt": "Spencer's well-known essay on clarity, force, and economy in expression.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "language, liberalism, style"
+    },
+    {
+      "title": "The Data of Ethics",
+      "slug": "the-data-of-ethics",
+      "url": "/library/the-data-of-ethics/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1879,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/46129",
+      "source_text_url": "https://www.gutenberg.org/ebooks/46129.txt.utf-8",
+      "tags": [
+        "ethics",
+        "liberalism",
+        "individualism"
+      ],
+      "excerpt": "Spencer's ethical groundwork for his broader individualist social philosophy.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "ethics, liberalism, individualism"
+    },
+    {
+      "title": "The Right to Ignore the State",
+      "slug": "the-right-to-ignore-the-state",
+      "url": "/library/the-right-to-ignore-the-state/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1851,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/34649",
+      "source_text_url": "https://www.gutenberg.org/ebooks/34649.txt.utf-8",
+      "tags": [
+        "individualism",
+        "liberalism",
+        "state"
+      ],
+      "excerpt": "A concise statement of Spencer's anti-paternalist argument about political authority.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "individualism, liberalism, state"
+    },
+    {
+      "title": "The Factors of Organic Evolution",
+      "slug": "the-factors-of-organic-evolution",
+      "url": "/library/the-factors-of-organic-evolution/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1887,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/52801",
+      "source_text_url": "https://www.gutenberg.org/ebooks/52801.txt.utf-8",
+      "tags": [
+        "evolution",
+        "science",
+        "social-theory"
+      ],
+      "excerpt": "Spencer's treatment of evolutionary causation and biological development.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "evolution, science, social-theory"
+    },
+    {
+      "title": "The Principles of Biology, Volume 1",
+      "slug": "principles-of-biology-volume-1",
+      "url": "/library/principles-of-biology-volume-1/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1864,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/54612",
+      "source_text_url": "https://www.gutenberg.org/ebooks/54612.txt.utf-8",
+      "tags": [
+        "biology",
+        "evolution",
+        "science"
+      ],
+      "excerpt": "The first volume of Spencer's large-scale biological synthesis.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "biology, evolution, science"
+    },
+    {
+      "title": "The Principles of Biology, Volume 2",
+      "slug": "principles-of-biology-volume-2",
+      "url": "/library/principles-of-biology-volume-2/",
+      "author_key": "herbert-spencer",
+      "year_first_published": 1867,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/67282",
+      "source_text_url": "https://www.gutenberg.org/ebooks/67282.txt.utf-8",
+      "tags": [
+        "biology",
+        "evolution",
+        "science"
+      ],
+      "excerpt": "The second volume of Spencer's large-scale biological synthesis.",
+      "mode": "fulltext",
+      "author": "Herbert Spencer",
+      "subtitle": "Herbert Spencer",
+      "search_tags": "biology, evolution, science"
+    },
+    {
+      "title": "Two Treatises of Government",
+      "slug": "two-treatises",
+      "url": "/library/two-treatises/",
+      "author_key": "john-locke",
+      "year_first_published": 1689,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/7370",
+      "source_text_url": "https://www.gutenberg.org/ebooks/7370.txt.utf-8",
+      "tags": [
+        "government",
+        "liberalism",
+        "natural-rights"
+      ],
+      "excerpt": "Locke's classic argument for natural rights, consent, and resistance to arbitrary power.",
+      "mode": "fulltext",
+      "author": "John Locke",
+      "subtitle": "John Locke",
+      "search_tags": "government, liberalism, natural-rights"
+    },
+    {
+      "title": "An Essay Concerning Humane Understanding, Volume 1",
+      "slug": "essay-concerning-humane-understanding-volume-1",
+      "url": "/library/essay-concerning-humane-understanding-volume-1/",
+      "author_key": "john-locke",
+      "year_first_published": 1689,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/10615",
+      "source_text_url": "https://www.gutenberg.org/ebooks/10615.txt.utf-8",
+      "tags": [
+        "knowledge",
+        "liberalism",
+        "philosophy"
+      ],
+      "excerpt": "The first volume of Locke's foundational inquiry into the origins and limits of human knowledge.",
+      "mode": "fulltext",
+      "author": "John Locke",
+      "subtitle": "John Locke",
+      "search_tags": "knowledge, liberalism, philosophy"
+    },
+    {
+      "title": "An Essay Concerning Humane Understanding, Volume 2",
+      "slug": "essay-concerning-humane-understanding-volume-2",
+      "url": "/library/essay-concerning-humane-understanding-volume-2/",
+      "author_key": "john-locke",
+      "year_first_published": 1689,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/10616",
+      "source_text_url": "https://www.gutenberg.org/ebooks/10616.txt.utf-8",
+      "tags": [
+        "knowledge",
+        "liberalism",
+        "philosophy"
+      ],
+      "excerpt": "The second volume of Locke's foundational inquiry into the origins and limits of human knowledge.",
+      "mode": "fulltext",
+      "author": "John Locke",
+      "subtitle": "John Locke",
+      "search_tags": "knowledge, liberalism, philosophy"
+    },
+    {
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "slug": "wealth-of-nations",
+      "url": "/library/wealth-of-nations/",
+      "author_key": "adam-smith",
+      "year_first_published": 1776,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/3300",
+      "source_text_url": "https://www.gutenberg.org/ebooks/3300.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "markets"
+      ],
+      "excerpt": "Smith's central work on labor, exchange, institutions, and commercial society.",
+      "mode": "fulltext",
+      "author": "Adam Smith",
+      "subtitle": "Adam Smith",
+      "search_tags": "economics, liberalism, markets"
+    },
+    {
+      "title": "The Theory of Moral Sentiments",
+      "slug": "the-theory-of-moral-sentiments",
+      "url": "/library/the-theory-of-moral-sentiments/",
+      "author_key": "adam-smith",
+      "year_first_published": 1759,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/67363",
+      "source_text_url": "https://www.gutenberg.org/ebooks/67363.txt.utf-8",
+      "tags": [
+        "ethics",
+        "liberalism",
+        "moral-philosophy"
+      ],
+      "excerpt": "Smith's account of sympathy, judgment, and the moral foundations of social life.",
+      "mode": "fulltext",
+      "author": "Adam Smith",
+      "subtitle": "Adam Smith",
+      "search_tags": "ethics, liberalism, moral-philosophy"
+    },
+    {
+      "title": "The Essays of Adam Smith",
+      "slug": "the-essays-of-adam-smith",
+      "url": "/library/the-essays-of-adam-smith/",
+      "author_key": "adam-smith",
+      "year_first_published": 1795,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/58559",
+      "source_text_url": "https://www.gutenberg.org/ebooks/58559.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "moral-philosophy"
+      ],
+      "excerpt": "A collection of Smith's shorter writings and lectures beyond The Wealth of Nations.",
+      "mode": "fulltext",
+      "author": "Adam Smith",
+      "subtitle": "Adam Smith",
+      "search_tags": "economics, liberalism, moral-philosophy"
+    },
+    {
+      "title": "Dialogues Concerning Natural Religion",
+      "slug": "dialogues-concerning-natural-religion",
+      "url": "/library/dialogues-concerning-natural-religion/",
+      "author_key": "david-hume",
+      "year_first_published": 1779,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/4583",
+      "source_text_url": "https://www.gutenberg.org/ebooks/4583.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "philosophy",
+        "skepticism"
+      ],
+      "excerpt": "Hume's dialogical treatment of religion, design, and the limits of inference.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "liberalism, philosophy, skepticism"
+    },
+    {
+      "title": "Enquiry Concerning Human Understanding",
+      "slug": "enquiry-concerning-human-understanding",
+      "url": "/library/enquiry-concerning-human-understanding/",
+      "author_key": "david-hume",
+      "year_first_published": 1748,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/9662",
+      "source_text_url": "https://www.gutenberg.org/ebooks/9662.txt.utf-8",
+      "tags": [
+        "knowledge",
+        "liberalism",
+        "skepticism"
+      ],
+      "excerpt": "Hume's classic statement of empiricism, causation, and the limits of certainty.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "knowledge, liberalism, skepticism"
+    },
+    {
+      "title": "Enquiry Concerning the Principles of Morals",
+      "slug": "enquiry-concerning-the-principles-of-morals",
+      "url": "/library/enquiry-concerning-the-principles-of-morals/",
+      "author_key": "david-hume",
+      "year_first_published": 1751,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/4320",
+      "source_text_url": "https://www.gutenberg.org/ebooks/4320.txt.utf-8",
+      "tags": [
+        "ethics",
+        "liberalism",
+        "moral-philosophy"
+      ],
+      "excerpt": "Hume's account of virtue, utility, sentiment, and moral judgment.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "ethics, liberalism, moral-philosophy"
+    },
+    {
+      "title": "Essays",
+      "slug": "essays-by-david-hume",
+      "url": "/library/essays-by-david-hume/",
+      "author_key": "david-hume",
+      "year_first_published": 1741,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/36120",
+      "source_text_url": "https://www.gutenberg.org/ebooks/36120.txt.utf-8",
+      "tags": [
+        "essays",
+        "liberalism",
+        "politics"
+      ],
+      "excerpt": "A set of Hume essays that connect commercial society, manners, and politics.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "essays, liberalism, politics"
+    },
+    {
+      "title": "Hume's Political Discourses",
+      "slug": "humes-political-discourses",
+      "url": "/library/humes-political-discourses/",
+      "author_key": "david-hume",
+      "year_first_published": 1752,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/59792",
+      "source_text_url": "https://www.gutenberg.org/ebooks/59792.txt.utf-8",
+      "tags": [
+        "economics",
+        "liberalism",
+        "politics"
+      ],
+      "excerpt": "Hume's essays on commerce, money, population, and constitutional questions.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "economics, liberalism, politics"
+    },
+    {
+      "title": "Treatise of Human Nature",
+      "slug": "treatise-of-human-nature",
+      "url": "/library/treatise-of-human-nature/",
+      "author_key": "david-hume",
+      "year_first_published": 1739,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/4705",
+      "source_text_url": "https://www.gutenberg.org/ebooks/4705.txt.utf-8",
+      "tags": [
+        "liberalism",
+        "philosophy",
+        "skepticism"
+      ],
+      "excerpt": "Hume's early major work on understanding, passions, and morals.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "liberalism, philosophy, skepticism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part A",
+      "slug": "history-of-england-vol-1-part-a",
+      "url": "/library/history-of-england-vol-1-part-a/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19211",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19211.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The opening part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part B",
+      "slug": "history-of-england-vol-1-part-b",
+      "url": "/library/history-of-england-vol-1-part-b/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19212",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19212.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The second part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part C",
+      "slug": "history-of-england-vol-1-part-c",
+      "url": "/library/history-of-england-vol-1-part-c/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19213",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19213.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The third part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part D",
+      "slug": "history-of-england-vol-1-part-d",
+      "url": "/library/history-of-england-vol-1-part-d/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19214",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19214.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The fourth part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part E",
+      "slug": "history-of-england-vol-1-part-e",
+      "url": "/library/history-of-england-vol-1-part-e/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19215",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19215.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The fifth part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "History of England in Three Volumes, Vol. I, Part F",
+      "slug": "history-of-england-vol-1-part-f",
+      "url": "/library/history-of-england-vol-1-part-f/",
+      "author_key": "david-hume",
+      "year_first_published": 1754,
+      "original_language": "en",
+      "source_url": "https://www.gutenberg.org/ebooks/19216",
+      "source_text_url": "https://www.gutenberg.org/ebooks/19216.txt.utf-8",
+      "tags": [
+        "history",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The sixth part of Hume's large-scale history of England.",
+      "mode": "fulltext",
+      "author": "David Hume",
+      "subtitle": "David Hume",
+      "search_tags": "history, institutions, liberalism"
+    },
+    {
+      "title": "Democracy in America",
+      "slug": "democracy-in-america",
+      "url": "/library/democracy-in-america/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1835,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/815",
+      "source_text_url": "https://www.gutenberg.org/ebooks/815.txt.utf-8",
+      "tags": [
+        "democracy",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The first English volume of Tocqueville's classic on democracy and civil society.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "democracy, institutions, liberalism"
+    },
+    {
+      "title": "Democracy in America, Volume 2",
+      "slug": "democracy-in-america-volume-2",
+      "url": "/library/democracy-in-america-volume-2/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1840,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/816",
+      "source_text_url": "https://www.gutenberg.org/ebooks/816.txt.utf-8",
+      "tags": [
+        "democracy",
+        "institutions",
+        "liberalism"
+      ],
+      "excerpt": "The second English volume of Tocqueville's classic on democracy and civil society.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "democracy, institutions, liberalism"
+    },
+    {
+      "title": "De la Democratie en Amerique, tome premier",
+      "slug": "de-la-democratie-en-amerique-tome-1",
+      "url": "/library/de-la-democratie-en-amerique-tome-1/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1835,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/30513",
+      "source_text_url": "https://www.gutenberg.org/ebooks/30513.txt.utf-8",
+      "tags": [
+        "america",
+        "democracy",
+        "institutions"
+      ],
+      "excerpt": "The first French tome of Tocqueville's study of democracy in America.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "america, democracy, institutions"
+    },
+    {
+      "title": "De la Democratie en Amerique, tome deuxieme",
+      "slug": "de-la-democratie-en-amerique-tome-2",
+      "url": "/library/de-la-democratie-en-amerique-tome-2/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1835,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/30514",
+      "source_text_url": "https://www.gutenberg.org/ebooks/30514.txt.utf-8",
+      "tags": [
+        "america",
+        "democracy",
+        "institutions"
+      ],
+      "excerpt": "The second French tome of Tocqueville's study of democracy in America.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "america, democracy, institutions"
+    },
+    {
+      "title": "De la Democratie en Amerique, tome troisieme",
+      "slug": "de-la-democratie-en-amerique-tome-3",
+      "url": "/library/de-la-democratie-en-amerique-tome-3/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1840,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/30515",
+      "source_text_url": "https://www.gutenberg.org/ebooks/30515.txt.utf-8",
+      "tags": [
+        "america",
+        "centralization",
+        "democracy"
+      ],
+      "excerpt": "The third French tome of Tocqueville's study of democracy in America.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "america, centralization, democracy"
+    },
+    {
+      "title": "De la Democratie en Amerique, tome quatrieme",
+      "slug": "de-la-democratie-en-amerique-tome-4",
+      "url": "/library/de-la-democratie-en-amerique-tome-4/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1840,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/30516",
+      "source_text_url": "https://www.gutenberg.org/ebooks/30516.txt.utf-8",
+      "tags": [
+        "america",
+        "centralization",
+        "democracy"
+      ],
+      "excerpt": "The fourth French tome of Tocqueville's study of democracy in America.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "america, centralization, democracy"
+    },
+    {
+      "title": "State of Society in France Before the Revolution of 1789",
+      "slug": "state-of-society-in-france-before-the-revolution-of-1789",
+      "url": "/library/state-of-society-in-france-before-the-revolution-of-1789/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1856,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/54187",
+      "source_text_url": "https://www.gutenberg.org/ebooks/54187.txt.utf-8",
+      "tags": [
+        "france",
+        "history",
+        "institutions"
+      ],
+      "excerpt": "Tocqueville's prehistory of the centralizing tendencies that shaped the French Revolution.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "france, history, institutions"
+    },
+    {
+      "title": "Ancien Regime et la Revolution",
+      "slug": "ancien-regime-et-la-revolution",
+      "url": "/library/ancien-regime-et-la-revolution/",
+      "author_key": "alexis-de-tocqueville",
+      "year_first_published": 1856,
+      "original_language": "fr",
+      "source_url": "https://www.gutenberg.org/ebooks/54339",
+      "source_text_url": "https://www.gutenberg.org/ebooks/54339.txt.utf-8",
+      "tags": [
+        "france",
+        "history",
+        "institutions"
+      ],
+      "excerpt": "The French text of Tocqueville's study of the old regime and revolutionary continuity.",
+      "mode": "fulltext",
+      "author": "Alexis de Tocqueville",
+      "subtitle": "Alexis de Tocqueville",
+      "search_tags": "france, history, institutions"
+    },
+    {
+      "title": "The Road to Serfdom",
+      "slug": "road-to-serfdom",
+      "url": "/library/road-to-serfdom/",
+      "author_key": "f-a-hayek",
+      "year_first_published": 1944,
+      "original_language": "en",
+      "source_url": "https://press.uchicago.edu/ucp/books/book/chicago/R/bo5984308.html",
+      "source_text_url": "",
+      "tags": [
+        "liberalism",
+        "central-planning",
+        "state"
+      ],
+      "excerpt": "A chapter-level guide to Hayek's critique of comprehensive planning and its political consequences.",
+      "mode": "guide",
+      "author": "F. A. Hayek",
+      "subtitle": "F. A. Hayek",
+      "search_tags": "liberalism, central-planning, state"
+    }
+  ]
+}

@@ -11,6 +11,10 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
+  {% if site.avatar %}
+  <link rel="icon" href="{{ site.avatar | relative_url }}" />
+  {% endif %}
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}" />
 
   {% include gtag.html %}

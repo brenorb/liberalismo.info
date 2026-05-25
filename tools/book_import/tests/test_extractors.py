@@ -30,3 +30,8 @@ def test_extract_text_strips_utf8_bom(tmp_path):
 
     result = extractors.extract_text(txt_path)
     assert result.text == "Liberty lives."
+
+
+def test_download_suffix_normalizes_gutenberg_text_urls():
+    assert extractors._download_suffix("https://www.gutenberg.org/ebooks/34901.txt.utf-8") == ".txt"
+    assert extractors._download_suffix("https://www.gutenberg.org/cache/epub/3300/pg3300-images.html") == ".html"

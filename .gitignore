@@ -1,5 +1,6 @@
 # project
 _site
+.site-test
 .sass-cache
 .vagrant
 

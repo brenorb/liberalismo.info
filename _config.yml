@@ -4,7 +4,7 @@
 title: "Liberalismo.info"
 
 # Short description of your site
-description: "A fonte de informações colaborativa sobre Liberalismo"
+description: "English-first collaborative library on liberalism with Portuguese as secondary language"
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,11 +20,19 @@ description: "A fonte de informações colaborativa sobre Liberalismo"
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About: "about"
+  Library: "library"
+  Authors: "authors"
+  Themes: "themes"
+  Schools: "schools"
+  Reading Paths: "docs/READING_PATHS"
+  Search: "search"
+  Docs:
+    - Vision: "docs/VISION"
+    - Specification: "docs/SPEC"
+    - Roadmap: "docs/ROADMAP"
+    - TDD Plans: "docs/PHASE_PLANS_TDD"
+    - FAQ: "docs/FAQ"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -69,9 +77,6 @@ author:
 social-network-links:
   rss: true
   email: "contato@liberalismo.info"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -93,7 +98,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Liberalismo.info"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Liberalismo.info"
 
 # --- Web Statistics Section --- #
 
@@ -157,7 +162,6 @@ timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -249,5 +253,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
+# Beautiful Jekyll
 # 2fc73a3a967e97599c9763d05e564189

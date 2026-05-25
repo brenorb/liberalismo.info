@@ -20,6 +20,7 @@ class WorkMetadata:
     source_url: str
     tags: list[str]
     source_format: str
+    slug: str | None = None
 
 
 @dataclass
@@ -75,14 +76,42 @@ def _format_tags(tags: Iterable[str]) -> str:
 
 def _clean_text(text: str) -> str:
     normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = _strip_project_gutenberg_boilerplate(normalized)
+    normalized = _strip_scanned_page_artifacts(normalized)
     normalized = re.sub(r"(\w)-\n(\w)", r"\1\2", normalized)
+    normalized = re.sub(r"[ \t]+\n", "\n", normalized)
     normalized = re.sub(r"\n{3,}", "\n\n", normalized)
     return normalized.strip()
 
 
+def _strip_project_gutenberg_boilerplate(text: str) -> str:
+    start_pattern = re.compile(r"^\*\*\*\s*START OF (?:THE|THIS) PROJECT GUTENBERG EBOOK.*\*\*\*$", re.MULTILINE)
+    end_pattern = re.compile(r"^\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK.*\*\*\*$", re.MULTILINE)
+
+    start_match = start_pattern.search(text)
+    if start_match:
+      text = text[start_match.end() :]
+
+    end_match = end_pattern.search(text)
+    if end_match:
+      text = text[: end_match.start()]
+
+    return text
+
+
+def _strip_scanned_page_artifacts(text: str) -> str:
+    cleaned_lines: list[str] = []
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if re.fullmatch(r"\{[ivxlcdm\d]+\}", line, re.IGNORECASE):
+            continue
+        cleaned_lines.append(raw_line)
+    return "\n".join(cleaned_lines)
+
+
 def build_work_markdown(work_input: WorkInput) -> str:
     meta = work_input.metadata
-    slug = make_slug(meta.title)
+    slug = meta.slug or make_slug(meta.title)
     body_text = _clean_text(work_input.text_body)
     chapters = detect_chapters(body_text)
 
