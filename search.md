@@ -5,8 +5,18 @@ subtitle: Search by work, author, or tag
 permalink: /search/
 ---
 
-<input id="search-input" type="text" placeholder="Search by title, author, or tag" style="width:100%;padding:10px;margin-bottom:16px;">
-<div id="search-results"></div>
+<div class="search-shell">
+  <section class="search-hero">
+    <p class="archive-kicker">Catalog query</p>
+    <h1 class="library-display">Search the archive like a shelf, not a feed.</h1>
+    <p class="library-lead">Query by title, author, tag, or excerpt. The result set is intentionally plain and scan-friendly.</p>
+  </section>
+
+  <section class="search-console">
+    <input id="search-input" type="text" placeholder="Search by title, author, or tag">
+    <div id="search-results"></div>
+  </section>
+</div>
 
 <script>
 (async function () {
@@ -17,14 +27,15 @@ permalink: /search/
 
   function render(items) {
     if (!items.length) {
-      results.innerHTML = '<p>No results.</p>';
+      results.innerHTML = '<p class="search-empty">No results.</p>';
       return;
     }
     results.innerHTML = items.map(item => {
-      return `<article style="margin-bottom:18px;">
-        <h3 style="margin:0 0 6px;"><a href="${item.url}">${item.title}</a></h3>
-        <p style="margin:0 0 4px;"><strong>Author:</strong> ${item.author}</p>
-        <p style="margin:0;color:#555;">${item.excerpt}</p>
+      return `<article class="search-hit">
+        <p class="micro-meta">Catalog hit</p>
+        <h3><a href="${item.url}">${item.title}</a></h3>
+        <p class="search-hit-meta"><strong>Author:</strong> ${item.author}</p>
+        <p class="search-hit-excerpt">${item.excerpt}</p>
       </article>`;
     }).join('');
   }

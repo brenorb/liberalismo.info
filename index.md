@@ -5,70 +5,91 @@ subtitle: Open archive of liberal texts
 use-site-title: false
 ---
 
+{% assign work_count = site.data.catalog.works | size %}
+{% assign author_count = site.data.catalog.authors | size %}
+{% assign fulltext_count = site.data.catalog.works | where: "mode", "fulltext" | size %}
+
 <div class="archive-home">
-  <section class="signal-panel archive-hero">
-    <p class="archive-kicker">Browse the archive</p>
-    <p><strong>Liberalismo.info</strong> is a static, source-linked archive for liberal political thought. The goal is closer to a navigable reference desk than to a magazine homepage: works, authors, themes, schools, reading paths, and editorial documentation should all be reachable with low friction.</p>
+  <section class="archive-masthead">
+    <div class="archive-masthead-copy">
+      <p class="archive-kicker">Public archive / English shelf / static publishing</p>
+      <h1 class="archive-display">Liberal texts arranged like an editorial switchboard.</h1>
+      <p class="archive-lead"><strong>Liberalismo.info</strong> is not a blog front page. It is a static archive with direct routes into works, authors, themes, schools, reading paths, and primary-source metadata.</p>
+    </div>
+    <div class="archive-stats">
+      <div class="archive-stat">
+        <span class="archive-stat-label">Works</span>
+        <strong>{{ work_count }}</strong>
+      </div>
+      <div class="archive-stat">
+        <span class="archive-stat-label">Authors</span>
+        <strong>{{ author_count }}</strong>
+      </div>
+      <div class="archive-stat">
+        <span class="archive-stat-label">Full text</span>
+        <strong>{{ fulltext_count }}</strong>
+      </div>
+    </div>
   </section>
 
-  <section class="archive-grid" aria-label="Browse the archive">
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 01</p>
-      <h2><a href="/library/">By work</a></h2>
-      <p>Go straight to the texts already opened, formatted, and linked to their primary sources.</p>
+  <section class="archive-board" aria-label="Browse the archive">
+    <article class="archive-panel archive-panel-tall">
+      <p class="micro-meta">Route 01</p>
+      <h2><a href="/library/">Library</a></h2>
+      <p>Browse all {{ work_count }} works as a catalog first, then drop into the core texts reproduced on site.</p>
     </article>
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 02</p>
-      <h2><a href="/authors/">By author</a></h2>
-      <p>Use author pages as compact sub-archives with work lists and contextual notes.</p>
+    <article class="archive-panel">
+      <p class="micro-meta">Route 02</p>
+      <h2><a href="/authors/">Authors</a></h2>
+      <p>Use author pages as compact sub-archives with shelf lists and context.</p>
     </article>
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 03</p>
-      <h2><a href="/themes/">By theme</a></h2>
-      <p>Jump into recurring concerns such as law, markets, democracy, freedom, and limited government.</p>
+    <article class="archive-panel">
+      <p class="micro-meta">Route 03</p>
+      <h2><a href="/themes/">Themes</a></h2>
+      <p>Jump by law, markets, institutions, democracy, freedom, and rights.</p>
     </article>
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 04</p>
-      <h2><a href="/schools/">By school</a></h2>
-      <p>Browse the archive through traditions like classical liberalism, libertarianism, and the Austrian school.</p>
+    <article class="archive-panel">
+      <p class="micro-meta">Route 04</p>
+      <h2><a href="/schools/">Schools</a></h2>
+      <p>Map the shelf by classical liberalism, libertarianism, and the Austrian line.</p>
     </article>
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 05</p>
+    <article class="archive-panel archive-panel-wide">
+      <p class="micro-meta">Route 05</p>
       <h2><a href="/docs/READING_PATHS/">Reading paths</a></h2>
-      <p>Use curated sequences instead of starting cold if you want a beginner or intermediate route.</p>
+      <p>Use sequenced entry points if you want a guided beginning instead of a cold start.</p>
     </article>
-    <article class="archive-card">
-      <p class="micro-meta">Entry point 06</p>
+    <article class="archive-panel archive-panel-wide">
+      <p class="micro-meta">Route 06</p>
       <h2><a href="/search/">Search</a></h2>
-      <p>Filter by author, title, excerpt, or tag when you already know what concept or work you need.</p>
+      <p>Query the catalog by author, work, tag, or excerpt when you already know the concept you need.</p>
     </article>
   </section>
 
-  <section class="signal-panel">
-    <p class="archive-kicker">Current shelf</p>
-    <ul class="shelf-list">
+  <section class="archive-columns">
+    <article class="signal-panel">
+      <p class="archive-kicker">Current shelf</p>
+      <ul class="shelf-list">
       <li><a href="/library/the-law/">The Law</a> <span class="shelf-meta">Frederic Bastiat</span></li>
       <li><a href="/library/on-liberty/">On Liberty</a> <span class="shelf-meta">John Stuart Mill</span></li>
       <li><a href="/library/two-treatises/">Two Treatises of Government</a> <span class="shelf-meta">John Locke</span></li>
       <li><a href="/library/wealth-of-nations/">The Wealth of Nations</a> <span class="shelf-meta">Adam Smith</span></li>
       <li><a href="/library/road-to-serfdom/">The Road to Serfdom</a> <span class="shelf-meta">F. A. Hayek</span></li>
       <li><a href="/library/democracy-in-america/">Democracy in America</a> <span class="shelf-meta">Alexis de Tocqueville</span></li>
-    </ul>
+      </ul>
+    </article>
+    <article class="signal-panel">
+      <p class="archive-kicker">Editorial stance</p>
+      <ul class="archive-manifest">
+        <li>Archive first: primary texts and durable metadata come before commentary layers.</li>
+        <li>Static first: every page should remain plain, linkable, and easy to audit.</li>
+        <li>Source linked: every work should point back to the edition or reference used.</li>
+      </ul>
+    </article>
   </section>
-
-  <section class="signal-panel">
-    <p class="archive-kicker">Editorial stance</p>
-    <ul>
-      <li>Archive first: primary texts and durable metadata come before commentary layers.</li>
-      <li>Static-first: every page should survive as plain files and remain easy to audit.</li>
-      <li>Source-linked: works must preserve clear provenance and edition references.</li>
-    </ul>
-  </section>
-
 </div>
 
 ## Portuguese (pt-BR)
 
 <div class="signal-panel">
-  <p>O <strong>Liberalismo.info</strong> quer funcionar como um arquivo navegavel de textos do liberalismo: obras, autores, temas, escolas, trilhas de leitura e documentacao editorial, tudo acessivel sem friccao excessiva.</p>
+  <p>O <strong>Liberalismo.info</strong> quer funcionar como um arquivo navegavel de textos do liberalismo: uma mesa editorial com rotas claras para obras, autores, temas, escolas, trilhas de leitura e documentacao.</p>
 </div>
