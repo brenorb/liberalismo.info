@@ -3,9 +3,8 @@ layout: page
 title: Schools
 subtitle: Browse the archive by political-intellectual tradition
 permalink: /schools/
+wide-page: true
 ---
-
-# Schools
 
 These schools provide a second entry point into the archive. Use them to branch by tradition rather than by single work.
 

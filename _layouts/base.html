@@ -3,11 +3,12 @@ common-css:
   - "/css/bootstrap.min.css"
   - "/css/bootstrap-social.css"
   - "/css/main.css"
+  - "/css/redesign.css"
 common-ext-css:
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
 common-googlefonts:
-  - "Newsreader:400,500,700"
-  - "IBM+Plex+Sans+Condensed:400,500,600,700"
+  - "Cormorant+Garamond:500,600,700,700italic"
+  - "Instrument+Sans:400,500,600,700"
   - "IBM+Plex+Mono:400,500"
 common-js:
   - "/js/jquery-1.11.2.min.js"
@@ -17,20 +18,19 @@ common-js:
 
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   {% include head.html %}
 
-  <body>
+  <body class="site-body">
 
     {% include gtm_body.html %}
-  
-    {% include nav.html %}
 
-    {{ content }}
+    <div class="site-frame">
+      {% include nav.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
-    {% include footer.html %}
-  
     {% include footer-scripts.html %}
-  
+
   </body>
 </html>

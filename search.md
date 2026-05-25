@@ -3,13 +3,16 @@ layout: page
 title: Search
 subtitle: Search by work, author, or tag
 permalink: /search/
+hide-page-hero: true
+wide-page: true
+surfaceless: true
 ---
 
 <div class="search-shell">
   <section class="search-hero">
     <p class="archive-kicker">Catalog query</p>
     <h1 class="library-display">Search the archive like a shelf, not a feed.</h1>
-    <p class="library-lead">Query by title, author, tag, or excerpt. The result set is intentionally plain and scan-friendly.</p>
+    <p class="library-lead">Query by title, author, tag, or excerpt. The result set stays intentionally plain, quiet, and scan-friendly.</p>
   </section>
 
   <section class="search-console">
