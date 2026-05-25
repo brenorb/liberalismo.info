@@ -5,8 +5,7 @@ subtitle: What Liberalismo.info is and how to contribute
 permalink: /about/
 ---
 
-<p class="archive-kicker">Project frame</p>
-<p><strong>Liberalismo.info</strong> is a collaborative project for cataloging, contextualizing, and when possible hosting full texts on liberalism and related traditions.</p>
+**Liberalismo.info** is a collaborative project for cataloging, contextualizing, and when possible hosting full texts on liberalism and related traditions.
 
 - Project vision: `/docs/VISION/`
 - Specification: `/docs/SPEC/`

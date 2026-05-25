@@ -3,21 +3,20 @@ layout: page
 title: Library
 subtitle: Cataloged works
 permalink: /library/
-hide-page-hero: true
-wide-page: true
-surfaceless: true
 ---
 
 {% assign work_count = site.data.catalog.works | size %}
 {% assign fulltext_count = site.data.catalog.works | where: "mode", "fulltext" | size %}
 {% assign catalog_count = work_count | minus: fulltext_count %}
 
+# Library
+
 <div class="library-shell">
   <section class="library-heading">
     <div>
       <p class="archive-kicker">Open catalog</p>
-      <h1 class="library-display">A long shelf of liberal works, arranged for <em>scanability</em>.</h1>
-      <p class="library-lead">Use <a href="/search/">search</a> when you know the concept, or scan the shelf directly when you want range, adjacency, and surprise.</p>
+      <h1 class="library-display">A long shelf of liberal works.</h1>
+      <p class="library-lead">Use <a href="/search/">search</a> when you know the concept, or scan the shelf directly when you want range and surprise.</p>
     </div>
     <div class="archive-stats">
       <div class="archive-stat">

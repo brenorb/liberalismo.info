@@ -3,8 +3,9 @@ layout: page
 title: Themes
 subtitle: Browse the archive by recurring ideas
 permalink: /themes/
-wide-page: true
 ---
+
+# Themes
 
 Use these themes as fast catalog entry points. Each item routes into [search](/search/) with the theme prefilled.
 

@@ -2,20 +2,12 @@
 layout: base
 ---
 
-<main class="page-shell" role="main">
-  <section class="page-hero">
-    <div class="page-hero-inner">
-      <p class="page-eyebrow">Archive note</p>
-      <h1 class="page-title">{{ page.title }}</h1>
-      {% if page.subtitle %}
-      <p class="page-subtitle">{{ page.subtitle }}</p>
-      {% endif %}
-      <p class="page-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</p>
-    </div>
-  </section>
+{% include header.html type="post" %}
 
-  <section class="page-body">
-    <div class="page-body-inner prose-surface">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
         {% assign gh_user =  gh_split[0]  %}
@@ -39,7 +31,7 @@ layout: base
         </div>
       {% endif %}
 
-      <article class="blog-post">
+      <article role="main" class="blog-post">
         {{ content }}
       </article>
 
@@ -86,5 +78,5 @@ layout: base
         </div>
       {% endif %}
     </div>
-  </section>
-</main>
+  </div>
+</div>
