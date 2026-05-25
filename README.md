@@ -15,10 +15,11 @@ English is the default publishing language.
 Portuguese (`pt-BR`) is provided as secondary content on core pages.
 
 ## Current Status
-MVP live with an initial catalog, author pages, reading paths, and search.
+Archive shell live with a generated catalog, author pages, reading paths, and search.
 
 - Library index: `library/index.md`
-- Initial full-text work: `library/the-law.md`
+- Catalog data: `_data/catalog.json`
+- Batch sync command: `uv run --project tools/book_import book-import sync-classical-catalog --repo-root $(pwd)`
 
 ## Local Development
 This repo uses Jekyll (Beautiful Jekyll theme).
@@ -41,4 +42,13 @@ bundle exec jekyll build
 ### Full phase suite
 ```bash
 ./test/all.sh
+```
+
+## Catalog Sync
+Rebuild the structured catalog, author pages, and imported library pages from the curated classical liberal manifest:
+
+```bash
+uv run --project tools/book_import \
+  book-import sync-classical-catalog \
+  --repo-root "$(pwd)"
 ```
