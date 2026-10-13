@@ -3,6 +3,7 @@ set -euo pipefail
 
 scripts=(
   test/smoke.sh
+  test/edit_page.sh
   test/design_system.sh
   test/archive_structure.sh
   test/catalog_scale.sh

@@ -1123,3 +1123,16 @@ td.gutter {
     margin-left: 0;
   }
 }
+
+.page-contribution {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.edit-page-link {
+  min-height: 44px;
+  font-size: 1.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.4em;
+}

@@ -1,0 +1,18 @@
+{%- if site.repository_url and page.path and page.edit_page != false -%}
+{%- assign edit_branch = site.repository_branch | default: 'main' | url_encode -%}
+{%- capture edit_source_path -%}
+  {%- assign source_parts = page.path | split: '/' -%}
+  {%- for part in source_parts -%}
+    {{- part | url_encode | replace: '+', '%20' -}}
+    {%- unless forloop.last -%}/{%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign edit_base = site.repository_url | append: '/edit/' | replace: '//edit/', '/edit/' -%}
+<div class="container page-contribution">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <a class="term-chip edit-page-link" data-edit-page href="{{ edit_base | escape }}{{ edit_branch }}/{{ edit_source_path }}">Edit this page <span lang="pt-BR">(Edite esta página)</span></a>
+    </div>
+  </div>
+</div>
+{%- endif -%}

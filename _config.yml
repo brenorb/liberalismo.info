@@ -16,6 +16,10 @@ description: "English-first collaborative library on liberalism with Portuguese 
 # baseurl should be an empty string
 #baseurl: ""
 
+# Public source used by the page-edit contribution link.
+repository_url: "https://github.com/brenorb/liberalismo.info"
+repository_branch: "main"
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
